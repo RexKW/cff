@@ -43,47 +43,22 @@
 
                 <div class = "col-12 col-md-8">
                     <div class = "row my-4 my-md-0" data-aos = "fade-up" data-aos-duration = "1500">
-                        <div class = "col-12 col-md-8" id = "swiper1">
-                            <div class="swiper mySwiper align-items-center align-middle w-100" data-aos = "fade-up" data-aos-duration = "1500">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <img src = "{{ $film->still1 }}" class = "still">
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src = "{{ $film->still2 }}" class = "still">
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src = "{{ $film->still3 }}" class = "still">
-                                    </div>
-                                    @if($film->still4)
-                                    <div class="swiper-slide">
-                                        <img src = "{{ $film->still4 }}" class = "still">
-                                    </div>
-                                    @endif
-                                    @if($film->still5)
-                                    <div class="swiper-slide">
-                                        <img src = "{{ $film->still5 }}" class = "still">
-                                    </div>
-                                    @endif
-                                </div>
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
-                            </div>
-                            <!-- <iframe class = "player-2 w-100" 
+                        <div class = "col-12 col-md-8">
+                            <iframe class = "player-2 w-100" 
                             src="{{ $film->trailer }}" 
                             title="YouTube video player" 
                             frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                             referrerpolicy="strict-origin-when-cross-origin" 
                             allowfullscreen>
-                            </iframe> -->
+                            </iframe>
                         </div>
                         <div class="col-12 col-md-4 px-4 my-4 my-md-0">
                             <img src="{{ $film->poster }}" class="w-100 px-1">
                         </div>
                     </div>
                     <div class = "row my-0 my-md-3" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">
-                        <p class = "fw-bold justify fs-7"> {{ $film->deskripsi }} </p>
+                        <p class = "fw-bold justify fs-7"> {!!$film->deskripsi!!} </p>
                     </div>
                 </div>
             </div>
