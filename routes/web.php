@@ -47,9 +47,11 @@ Route::get('/ticketing', function(){
 
 Route::post('/ticketingsearch', [ProgramController::class, 'search']);
 
-Route::get('/program/{id}', [FilmController::class, 'detail']);
+Route::get('/program/{kategori}', [FilmController::class, 'detail']);
 
 Route::get('/schedule', [ScheduleController::class, 'index']);
+
+Route::get('/schedule/{day}', [ScheduleController::class, 'search']);
 
 Route::get('/workshop', function(){
     return view('program.workshop');

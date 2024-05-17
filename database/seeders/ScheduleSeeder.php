@@ -14,22 +14,13 @@ class ScheduleSeeder extends Seeder
     public function run(): void
     {
         Schedule::create([
-            'name' => 'Performance by Willas',
-            'time' => '19.00-20.00',
-            'description' => 'Willas akan Joget',
-            'day' => 1
+            'day' => '1-3',
+            'image' => '/images/Day-1-3.jpg'
         ]);
+
         Schedule::create([
-            'name' => 'Performance by Willas',
-            'time' => '20.00-21.00',
-            'description' => 'Willas akan Joget',
-            'day' => 1
-        ]);
-        Schedule::create([
-            'name' => 'Performance by Willas',
-            'time' => '21.00-22.00',
-            'description' => 'Willas akan Joget',
-            'day' => 1
+            'day' => '4-6',
+            'image' => '/images/Day-4-6.jpg'
         ]);
     }
 }

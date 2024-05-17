@@ -10,6 +10,7 @@
             <div class = "d-flex my-2 align-items-center align-middle">
                 <div class="form-group me-1" data-aos = "fade-up" data-aos-duration = "1500">
                     <select class="form-select my-1 fw-bold rounded-0" name="type" required>
+                        <option value = "ALL"> ALL </option>
                         <option value = "workshop"> WORKSHOP </option>
                         <option value = "kompetisi"> KOMPETISI </option>
                         <option value = "non-kompetisi"> NON-KOMPETISI </option>
@@ -17,12 +18,13 @@
                 </div>
                 <div class="form-group ms-1" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">
                     <select class="form-select my-1 fw-bold rounded-0" name="date" required>
-                        <option value = "2024-05-19"> DAY 1 </option>
-                        <option value = "2024-05-20"> DAY 2 </option>
-                        <option value = "2024-05-21"> DAY 3 </option>
-                        <option value = "2024-05-22"> DAY 4 </option>
-                        <option value = "2024-05-28"> DAY 5 </option>
-                        <option value = "2024-05-29"> DAY 6 </option>
+                        <option value = "ALL"> ALL </option>
+                        <option value = "2024-05-28"> DAY 1 </option>
+                        <option value = "2024-05-29"> DAY 2 </option>
+                        <option value = "2024-05-30"> DAY 3 </option>
+                        <option value = "2024-05-31"> DAY 4 </option>
+                        <option value = "2024-06-01"> DAY 5 </option>
+                        <option value = "2024-06-02"> DAY 6 </option>
                     </select>
                 </div>
                 <div class="ms-1">
@@ -56,7 +58,7 @@
 
                     <h3 class = "fw-semibold fs-4 fs-md-3"> {{ $newDate }} | {{ $program->location }}</h3>
 
-                    <p class = "fw-medium" style = "text-align: justify;"> {{ $program->description }} </p>
+                    <p class = "fw-medium"> {!!$program->description!!} </p>
                     <a href = "{{ $program->link }}" > <img src = "/images/BuyNow.jpg" class = "text-image-ticket"> </a>
                 </div>
             </div>

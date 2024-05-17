@@ -7,11 +7,12 @@ use Illuminate\Http\Request;
 
 class FilmController extends Controller
 {
-    public function detail($id){
-        $film = Film::find($id);
+
+    public function detail($kategori){
+        $films = Film::where('kategori', $kategori)->get();
 
         return view('program.program', [
-            'film' => $film
+            'films' => $films
         ]);
     }
 }

@@ -60,7 +60,7 @@
            font-size: 16px;
         }
         .text-shadow{
-            text-shadow: 1px 1px 20px #777;
+            text-shadow: 1px 1px 10px #333;
         }
         .btn-custom{
             background-color: transparent;
@@ -82,6 +82,18 @@
         .btn-blue:active{
             background-color: #0887CD;
             border-color: transparent;
+        }
+        .btn-yellow{
+            background-color: #FFED00;
+            border-color: transparent;
+            color: #0887CD;
+        }
+        .btn-yellow:hover,
+        .btn-yellow:focus,
+        .btn-yellow:active{
+            background-color: #0887CD;
+            border-color: transparent;
+            color: #FFED00;
         }
         .dropdown-custom{
             background-color: #F5B416;
@@ -150,6 +162,22 @@
             align-items: center;
         }
         .swiper-slide img {
+            display: block;
+            height: 100%;
+            width: auto;
+            object-fit: cover;
+        }
+        #swiper1 .swiper {
+            aspect-ratio: 16/9;
+            height: auto;
+        }
+        #swiper1 .swiper-slide {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #swiper1 .swiper-slide img {
             display: block;
             height: 100%;
             width: auto;
@@ -278,8 +306,8 @@
                 padding-right: 30px;
             }
             .padding-home{
-                padding-top: 180px;
-                padding-bottom: 180px;
+                padding-top: 140px;
+                padding-bottom: 140px;
                 padding-left: 0px;
                 padding-right: 0px;
             }
@@ -291,12 +319,12 @@
                 padding-right: 0px;
             }
             .swiper {
-                width: 300px;
-                height: 200px;
+                width: 100%;
+                height: 340px;
             }
             .swiper-slide img {
                 display: block;
-                width: auto;
+                width: 280px;
                 object-fit: contain;
             }
             .main-logo{
@@ -323,8 +351,7 @@
             }
             .player{
                 aspect-ratio: 16/9;
-                width: 75%;
-                height: 100%;
+                width: 200px;
             }
             .player-2{
                 aspect-ratio: 16/9;
@@ -354,7 +381,7 @@
                     </button>
             </div>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto fw-bold grid gap-4 align-items-center">
+                <div class="navbar-nav d-flex justify-content-end ms-auto fw-bold grid gap-4 align-items-center">
                     <a class="nav-link text-black" aria-current="page" href="/"> HOME </a>
                     <div class="nav-link dropdown">
                         <button class="btn btn-custom dropdown-toggle fw-bold rounded-0 text-black" data-bs-toggle="dropdown" aria-expanded="false">
@@ -369,15 +396,16 @@
                         </ul>
                     </div>
                     <a class="nav-link text-black" href="/ticketing"> TICKETING </a>
-                    <div class="dropdown-center">
+                    <div class="nav-link dropdown">
                         <button class="btn btn-custom dropdown-toggle fw-bold rounded-0 text-black" data-bs-toggle="dropdown" aria-expanded="false">
                             PROGRAM
                         </button>
                         <ul class="dropdown-menu dropdown-custom rounded-0">
                             <li><a class="dropdown-item fw-bold" href="/schedule"> SCHEDULE </a></li>
-                            @foreach ($films as $film)
-                                <li><a class="dropdown-item fw-bold" href="/program/{{$film->id}}"> {{ strtoupper($film->judul) }}</a></li>
-                            @endforeach
+                            <li><a class="dropdown-item fw-bold" href="/program/1"> ILLUSION OF DELUSION </a></li>
+                            <li><a class="dropdown-item fw-bold" href="/program/2"> VOICE OF THE VOICELESS </a></li>
+                            <li><a class="dropdown-item fw-bold" href="/program/3"> PERFECTLY IMPERFECT </a></li>
+                            <li><a class="dropdown-item fw-bold" href="/program/4"> SOS! SHOUT OUT SURABAYANS! </a></li>
                             
                             <li><a class="dropdown-item fw-bold" href="/workshop"> WORKSHOP </a></li>
                             <li><a class="dropdown-item fw-bold" href="/unseenSeries"> UNSEEN SERIES </a></li>
@@ -423,6 +451,19 @@
     </footer>
     <script>
         var swiper = new Swiper(".mySwiper", {
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+        });
+    </script> 
+
+    <script>
+        var swiper = new Swiper(".mySwiper2", {
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",

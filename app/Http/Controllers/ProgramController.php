@@ -13,10 +13,18 @@ class ProgramController extends Controller
             'date' => 'required',
         ]);
 
-        $programs = Program::where('type', $validatedData['type'])
+        if($validatedData['type'] == 'ALL' && $validatedData['date'] == 'ALL'){
+            $programs = Program::all();
+        } else if ($validatedData['type'] == 'ALL'){
+            $programs = Program::where('date', $validatedData['date'])->get();
+        } else if ($validatedData['date'] == 'ALL'){
+            $programs = Program::where('type', $validatedData['type'])->get();
+        } else {
+            $programs = Program::where('type', $validatedData['type'])
                             ->where('date', $validatedData['date'])
                             ->get();
-
+        }
+        
         return view('ticketinglist', [
             'programs' => $programs
         ]);

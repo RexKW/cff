@@ -15,10 +15,11 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
             $table->string('judul');
+            $table->integer('kategori');
             $table->string('sutradara');
-            $table->string('produser');
-            $table->string('penulis');
-            $table->string('rumah_produksi');
+            $table->string('produser')->nullable();
+            $table->string('penulis')->nullable();
+            $table->string('rumah_produksi')->nullable();
             $table->string('penghargaan')->nullable();
             $table->string('trailer');
             $table->string('poster');
