@@ -21,13 +21,5 @@ class PressSeeder extends Seeder
             'image' => '/images/Background-1.jpg',
             'link' => 'www.tiket.com',
         ]);
-
-        Press::create([
-            'title' => 'WILLAS TOBING MEMUKBANG 2000 TON MAKANAN',
-            'date' => Carbon::createFromDate(2023, 6, 17),
-            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-            'image' => '/images/Background-1.jpg',
-            'link' => 'www.tiket.com',
-        ]);
     }
 }

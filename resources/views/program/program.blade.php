@@ -54,7 +54,7 @@
                             </iframe>
                         </div>
                         <div class="col-12 col-md-4 px-4 my-4 my-md-0">
-                            <img src="{{ $film->poster }}" class="w-100 px-1">
+                            <img src="{{ $film->poster }}" class="w-100 px-2">
                         </div>
                     </div>
                     <div class = "row my-0 my-md-3" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">

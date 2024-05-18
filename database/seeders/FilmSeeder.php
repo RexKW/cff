@@ -14,6 +14,119 @@ class FilmSeeder extends Seeder
     public function run(): void
     {
         Film::create([
+            'judul' => 'Klesha',
+            'kategori' => 1,
+            'sutradara' => 'Falah Bilal Putra Candra',
+            'trailer' => 'https://www.youtube.com/embed/a4gTNoxaiWo?si=rAZvZg1rZ2NqtkpC',
+            'poster' => '/images/non-kompetisi/Poster-KLESHA.jpg',
+            'deskripsi' => 'Sinopsis : KARINA (18) mendapati mimpi buruk tentang keluarganya. Karina melihat ibunya WARNI (45) sedang dibunuh oleh entitas yang tidak dikenal. Karina pun mencoba untuk tidak memperdulikan hal itu dan menganggapnya hanya sebuah mimpi. Tiba tiba entitas yang berada di mimpi itu muncul dihadapan Karina. Entitas itu adalah WANITA BERGAUN MERAH. Wanita bergaun merah itu juga mengganggu kehidupan Karina. Karina pun mencoba melawan wanita bergaun merah itu dan berhasil. Ternyata wanita bergaun merah itu hanya sebuah halusinasi dari Karina akibat penyakitnya, yaitu skizofrenia.',
+            'tipe' => 'non-kompetisi'
+        ]);
+
+        Film::create([
+            'judul' => 'Itu Bukan Dia',
+            'kategori' => 1,
+            'sutradara' => 'Ariq Arsyi',
+            'trailer' => 'https://www.youtube.com/embed/szGxAYXRumo?si=Skdk-tnkYaRrw9Ba',
+            'poster' => '/images/non-kompetisi/Poster-ItuBukanDia.jpg',
+            'deskripsi' => 'Sinopsis : Arini (24) sudah enam bulan lamanya kehilangan sesosok calon suami yang sangat dicintainya. Ia selalu merindukan sosok Gilang setiap hari. Lalu, pada suatu ketika saat Arini memperhatikan foto-foto lamanya, Ia tidak sengaja melihat sebuah foto saat Ia masih kecilnya dengan teman- temannya yang dibelakangnya terdapat sebuah gubuk yang mengingatkannya dengan masa itu. Gubuk yang pernah dijadikan tempat untuk melakukan sebuah “Ritual” pemanggilan Arwah. 
+            <br><br>Awalnya Ia mendapat penolakan dari teman – temannya untuk melakukan itu. Namun pada akhirnya, dengan bantuan dua orang temannya yaitu Mila (24) dan Ridho (23), mereka mencoba melakukan sebuah ritual itu. Dengan mengandalkan ingatan  apa saja yang saat itu Ia lihat Arini pun memulai ritualnya.',
+            'tipe' => 'non-kompetisi'
+        ]);
+
+        Film::create([
+            'judul' => 'My Sweet Honey',
+            'kategori' => 1,
+            'sutradara' => 'Bayu Adjie Devasina Getar Alam',
+            'trailer' => 'https://www.youtube.com/embed/OjUiZy0ZYz8?si=vzHYYvYxuYpI41zY',
+            'poster' => '/images/non-kompetisi/Poster-MSH.jpg',
+            'deskripsi' => 'Sinopsis : Sam adalah seorang mahasiswa teknik tingkat akhir yang cemerlang dalam akademik dan berasal dari keluarga yang berkecukupan. Ia memiliki hubungan dengan seorang gadis bernama Alma, seorang figur "My Sweet Honey" dalam dirinya. 
+            <br><br>Suatu ketika ia mendapati Alma berselingkuh dengan teman dekatnya. Ia patah hati untuk pertama kali. Karena ia adalah seorang yang selalu memendam rasa, Ia mencoba untuk lari dari kenyataan menuju kelamnya dunia hingga tidak dapat membedakan halusinasi dan realita.',
+            'tipe' => 'non-kompetisi'
+        ]);
+
+        Film::create([
+            'judul' => 'Selamat Berduka Cita (Happy Condolences)',
+            'kategori' => 1,
+            'sutradara' => 'Caesario Arnoldi',
+            'trailer' => 'https://www.youtube.com/embed/3FKSNPM7Nuk?si=cvAApySw5Fuzsu1a',
+            'poster' => '/images/non-kompetisi/Poster-SelamatBerdukaCita.jpg',
+            'deskripsi' => "Sinopsis : After learning of her mother's passing from her sister NILA (26), who was already at the location, LELA (21) is her way to the village for the funeral. A radio broadcast that discusses the possibility of Mount Toba erupting and its connection to the apocalypse accompanied her journey. Arriving at the house of worship for the funeral procession, Nila greeted Lela and invited her to come in. The moment Lela stepped into the room, something changed. An air of threat looms over her as the decorations and the gazes of the entire congregation were immediately focused on Lela.",
+            'tipe' => 'non-kompetisi'
+        ]);
+
+        Film::create([
+            'judul' => 'Manrabukka',
+            'kategori' => 1,
+            'sutradara' => 'Syafrida Yusuf Amin',
+            'trailer' => 'https://www.youtube.com/embed/SmQsEb9dmno?si=sU5PdWMenzUrG9p9',
+            'poster' => '/images/non-kompetisi/Poster-Manrabbuka.jpg',
+            'deskripsi' => "Sinopsis : Husain (19), Bagas (20), dan Daniel (19) sedang pesta minum di tongkrongan biasanya. Mereka mabuk dan tertawa terbahak-bahak. Kemudian dengan keadaan mabuk berat, Bagas mempersilahkan Husain untuk berdiri memberikan ceramah agama. Husain pun berdiri memberikan ceramah dengan melantur sambil memperagakan ayahnya ketika berceramah. Setelah itu, Daniel mengacungkan tangannya memberikan pertanyaan tidak masuk akal yang diikuti pula jawaban Husain yang tidak masuk akal. Lalu mereka tertawa bersama. Setelah itu Bagas ikut bertanya tentang siapa tuhan kamu, kemudian dijawab dengan lantang oleh Husain bahwa tuhannya adalah Allah SWT. Bagas kembali bertanya, lalu meminta Husain menutup mulutnya rapat-rapat saat menjawab pertanyaan tersebut. Ternyata Husain tidak berhasil menjawab, tidak ada kata-kata yang keluar dari mulutnya. Lalu mereka menertawakan hal tersebut. Semakin malam mereka mabuk berat, terlihat Husain tertegun memikirkan impian dia menjadi stand up comedy. Husain membicarakan hal tersebut kepada Bagas dan Daniel, namun mereka justru menertawakannya. Husain pun menangis karena merasa tidak ada yang mendukung segala mimpinya. Akhirnya, Bagas dan Daniel menenangkan Husain dan siap mendukungnya. Husain pun diminta untuk mencoba stand up di depan mereka. Husain berdiri, namun secara tiba-tiba suasana menjadi gelap total, lalu muncul microphone di depannya dan cahaya putih mengarah kepada Husain. Bagas dan Daniel tidak ada di lokasi, hanya terlihat beberapa pocong yang duduk melihat dan siap mendengarkan Husain. Kemudian Husain mulai mencoba untuk melucu, tetapi tidak ada pocong yang tertawa. Semakin lucu pembicaraan Husain mengenai kematian, pocong-pocong tetap tidak ada yang tertawa, kemudian pocong-pocong secara bersamaan mengatakan “manrabbuka” kepada Husain berkali-kali dengan suara dari kecil hingga membesar, dari lambat hingga semakin cepat, dan dari duduk hingga berdiri memutari Husain. Husain pun mencoba menjawab tetapi justru mulutnya hilang tertutup oleh kulitnya sendiri. Pocong-pocong semakin menakutkan bagi Husain, lalu Husain meneteskan air matanya.",
+            'tipe' => 'non-kompetisi'
+        ]);
+
+        Film::create([
+            'judul' => 'Mentari Sang Penakluk Gelombang',
+            'kategori' => 2,
+            'sutradara' => 'Ahmad Wildan Pattilouw',
+            'trailer' => 'https://www.youtube.com/embed/n2kVeEeCPXA?si=fEmqWBL9RfUMYo4H',
+            'poster' => '/images/non-kompetisi/Poster-Mentari.jpg',
+            'deskripsi' => 'Sinopsis : Maluku merupakan Provinsi Kepulauan yang kaya akan rempah-rempah dan Biota Laut, menjadi sumber mata pencaharian masyarakat kepulauan Maluku. Di desa urimessing, kecamatan Nusaniwe (Ambon) terdapat seseorang perempuan yang mandiri dan berani. Dia adalah Mentari Tuhumury, terlahir sebagai satu-satunya anak perempuan dari 6 bersaudara ia justru tidak pernah menunjukan sifat manjanya. Mentari Tuhumury adalah mahasiswa semester akhir pada Program Studi Keperawatan, ia bukan sembarang memilih jurusan tapi karena ia memiliki cita-cita sebagai seorang perawat, walaupun hobi dan keinginan mentari sangat berlawanan dengan jurusan yang ia pilih, bukan alasan untuk dia berhenti melaut dan tidak fokus pada jurusan yang dipilihnya, ia justru bisa melakukannya secara bersamaan. Mentari sudah biasa melaut bermil-mil jauh nya dan ia bisa melaut sendiri dan kadang di temani ayah atau kakaknya. Melaut sudah menjadi hobi bagi mentari sejak usia 7 tahun. Di tengah-tengah kesibukannya sebagai mahasiswa pada semester akhir yang sedang mempersiapkan Skripsi, sembari ia meluangkan waktu untuk melaut dan dari hasil tangkapan yang diperoleh ia gunakan untuk membantu orang tua dan dipakai juga untuk biaya kuliahnya sendiri.',
+            'tipe' => 'non-kompetisi'
+        ]);
+
+        Film::create([
+            'judul' => 'Laila',
+            'kategori' => 2,
+            'sutradara' => 'Bayo Pradityo',
+            'trailer' => 'https://www.youtube.com/embed/nS4OK8oq4Vo?si=JsrT_3LFV00kvT0t',
+            'poster' => '/images/non-kompetisi/Poster-Laila.jpg',
+            'deskripsi' => 'Sinopsis : Kisah penyandang disabilitas yang rentan terhadap lingkungan sosial dan hanya memiliki perlindungan secara sosial dari orangtua nya. Setelah orangtua meninggal, Laila merasa putus asa sehingga keluarga besar nya memasukan ke panti rehabilitasi sosial sebagai Solusi permasalahan nya. Bangkit dari keterpurukan sepeninggal orangtuanya, Laila tidak pernah berkunjung sekalipun ke makam orang tuanya, sehingga kekuatan itu ada setelah Laila merasa menjadi manusia yang bermanfaat dan mandiri terlepas inklusivitas pada tubuhnya.',
+            'tipe' => 'non-kompetisi'
+        ]);
+
+        Film::create([
+            'judul' => 'Kotak Amal',
+            'kategori' => 2,
+            'sutradara' => 'Taufan Tohary',
+            'trailer' => 'https://www.youtube.com/embed/xbVjrGaq-t0?si=rRup8MYR4rYXc0O4',
+            'poster' => '/images/non-kompetisi/Poster-KotakAmal.jpg',
+            'deskripsi' => 'Sinopsis : Dua orang sahabat yang juga mantan napi, berjuang untuk tetap istiqamah dalam menjalani kehidupan sebagai "orang baik" dihadapkan persoalan sosial dan rasa lapar di tengah perjalanan mereka.',
+            'tipe' => 'non-kompetisi'
+        ]);
+
+        Film::create([
+            'judul' => 'Disparitas',
+            'kategori' => 2,
+            'sutradara' => 'Charlotte Yeung',
+            'trailer' => 'https://www.youtube.com/embed/rX7zpac1Ols?si=L3r5wdLMgXobFBne',
+            'poster' => '/images/non-kompetisi/Poster-Disparitas.jpg',
+            'deskripsi' => 'Sinopsis : Pertunjukkan teater tentang dua keluarga dengan kondisi kelas sosial yang berbeda hidup dibawah satu atap, dengan kepala keluarga si miskin menjadi pelayan keluarga kaya. Pelayan dan keluarganya harus bertahan dan berjuang untuk kelangsungan hidupnya dengan pas-pas an dan menahan lapar, sambil melihat keluarga kaya yang hidup dengan berlebihan. Sampai pada puncaknya, si pelayan tidak sanggup melihat keluarganya kelaparan lagi dan berusaha untuk mengambil beberapa sisa makanan dari si keluarga kaya. Namun mirisnya, si keluarga kaya bahkan tidak mau berbagi sisa makanannya, dan membuat pelayan ‘dieksekusi’ berdasarkan suara terbanyak penonton.',
+            'tipe' => 'non-kompetisi'
+        ]);
+
+        Film::create([
+            'judul' => 'Between Above and Below',
+            'kategori' => 2,
+            'sutradara' => 'Alwi Iftikhar',
+            'trailer' => 'https://www.youtube.com/embed/87JXEowSy-c?si=7_SbWi736CAmDE0I',
+            'poster' => '/images/non-kompetisi/Poster-BetweenAbove.jpg',
+            'deskripsi' => 'Sinopsis : Di tempat antah berantah yang gelap, Gian seorang laki - laki memakai jas rapih duduk di ruang interogasi dengan penjaga yang terlihat misterius. Gian yang terlihat berkeringat ketakutan dengan pertanyaan - pertanyaan dari penjaga, sampai akhirnya penjaga bertanya tentang hal apa yang Gian sesali selama hidupnya. Gian menceritakan bahwa pada akhir hidupnya Gian disangka sebagai penculik Anak kecil bernama Lia yang Ayahnya sering berbuat abusive kepada Lia. Gian disangka seorang penculik sehingga ia dihakimi oleh masyarakat sampai terbunuh. Kasus ini membuat Penjaga kebingungan dalam mendakwa nasib Gian dan akhirnya kasus Gian diserahkan kepada Tuhan.',
+            'tipe' => 'non-kompetisi'
+        ]);
+
+        Film::create([
+            'judul' => 'Make A Wish',
+            'kategori' => 2,
+            'sutradara' => 'Adventio Diyar',
+            'trailer' => 'https://www.youtube.com/embed/veem5DpSfHM?si=5FyDbXwZsqEr9aBL',
+            'poster' => '/images/non-kompetisi/Poster-MakeAWish.jpg',
+            'deskripsi' => 'Sinopsis : Widarto (24), seorang buruh pabrik kayu yang terkena PHK massal di penghujung tahun, mendengar sebuah mitos tentang domba tahun baru di kampungnya. Konon kabarnya, siapapun yang bisa mendengar domba ternaknya berbicara, akan mendapat keajaiban di tahun berikutnya.
+            <br><br>Penasaran akan hal itu, Widarto akhirnya mencoba mengajak ngobrol Arum, domba ternaknya. Segala macam permasalahan hidupnya, dia ceritakan pada Arum. Hingga tepat di detik-detik terakhir pergantian tahun, sesuatu terjadi pada mereka.',
+            'tipe' => 'non-kompetisi'
+        ]);
+
+        Film::create([
             'judul' => 'Against The Grain',
             'kategori' => 3,
             'sutradara' => 'Vincent Tion Hudaya',
@@ -109,5 +222,4 @@ class FilmSeeder extends Seeder
             'tipe' => 'non-kompetisi'
         ]);
     }
-    
 }

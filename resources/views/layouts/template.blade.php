@@ -167,22 +167,6 @@
             width: auto;
             object-fit: cover;
         }
-        #swiper1 .swiper {
-            aspect-ratio: 16/9;
-            height: auto;
-        }
-        #swiper1 .swiper-slide {
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        #swiper1 .swiper-slide img {
-            display: block;
-            height: 100%;
-            width: auto;
-            object-fit: cover;
-        }
         .main-logo{
             width: 300px;
         }
@@ -235,7 +219,7 @@
             height: 40px;
         }
         .hide-on-mobile{
-            display: none;
+            display: block;
         }
 
         @media (max-width:767px){
@@ -363,6 +347,9 @@
             .swiper-button-prev{
                 width: 40px;
                 height: 40px;
+            }
+            .hide-on-mobile{
+                display: none;
             }
         }
         

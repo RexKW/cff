@@ -37,13 +37,13 @@
             <div class = "row py-4 border-bottom border-2 border-white" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "500"> 
                 <div class = "col-12 col-md-6 mb-4 mb-md-0">
                     <div class = "row"> 
-                        <div class = "col-4 px-1">
+                        <div class = "col-6 col-md-4 px-1">
                             <img src = "{{ $program->poster1 }}" class = "w-100">
                         </div>
-                        <div class = "col-4 px-1">
+                        <div class = "col-6 col-md-4 px-1">
                             <img src = "{{ $program->poster2 }}" class = "w-100">
                         </div>
-                        <div class = "col-4 px-1">
+                        <div class = "col-0 col-md-4 px-1 hide-on-mobile">
                             <img src = "{{ $program->poster3 }}" class = "w-100">
                         </div>
                     </div>

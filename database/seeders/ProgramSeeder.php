@@ -25,9 +25,9 @@ class ProgramSeeder extends Seeder
             <br>5. Five Minutes of Love (Sutradara : Daffa Putra Ramadhan)',
             'link' => 'https://www.loket.com/event/3rd-ciputra-film-festival-2024-i4g7?fbclid=PAZXh0bgNhZW0CMTEAAaYIZWJnr1PfX9uaYXFiK_jVGhqhdTguBU9jzrG4-Q177bGA-esbzl_0eow_aem_AeHR1zhUjbR-HnRdZThopxkNyJjCFiTPh2N-s-A1x7-eLsTqdZrsP8z1MNCB-R59e75i2_avgR65EmTVclSZoEA0',
             'type' => 'non-kompetisi',
-            'poster1' => '/images/Poster.jpg',
-            'poster2' => '/images/Poster.jpg',
-            'poster3' => '/images/Poster.jpg',
+            'poster1' => '/images/non-kompetisi/Poster-AgainstTheGrain.jpg',
+            'poster2' => '/images/non-kompetisi/PosterSediaKala.jpg',
+            'poster3' => '/images/non-kompetisi/Poster-5Minutes.jpg',
         ]);
 
         Program::create([
@@ -42,9 +42,9 @@ class ProgramSeeder extends Seeder
             <br>6. Between Above and Below (Sutradara : Alwi Iftikhar)',
             'link' => 'https://www.loket.com/event/3rd-ciputra-film-festival-2024-i4g7?fbclid=PAZXh0bgNhZW0CMTEAAaYIZWJnr1PfX9uaYXFiK_jVGhqhdTguBU9jzrG4-Q177bGA-esbzl_0eow_aem_AeHR1zhUjbR-HnRdZThopxkNyJjCFiTPh2N-s-A1x7-eLsTqdZrsP8z1MNCB-R59e75i2_avgR65EmTVclSZoEA0',
             'type' => 'non-kompetisi',
-            'poster1' => '/images/Poster-2.jpg',
-            'poster2' => '/images/Poster-2.jpg',
-            'poster3' => '/images/Poster-2.jpg',
+            'poster1' => '/images/non-kompetisi/Poster-MakeAWish.jpg',
+            'poster2' => '/images/non-kompetisi/Poster-KotakAmal.jpg',
+            'poster3' => '/images/non-kompetisi/Poster-Disparitas.jpg',
         ]);
 
         Program::create([
@@ -57,9 +57,9 @@ class ProgramSeeder extends Seeder
             <br>4. Is-Smile (Sutradara : Achmad Candi)',
             'link' => 'https://www.loket.com/event/3rd-ciputra-film-festival-2024-i4g7?fbclid=PAZXh0bgNhZW0CMTEAAaYIZWJnr1PfX9uaYXFiK_jVGhqhdTguBU9jzrG4-Q177bGA-esbzl_0eow_aem_AeHR1zhUjbR-HnRdZThopxkNyJjCFiTPh2N-s-A1x7-eLsTqdZrsP8z1MNCB-R59e75i2_avgR65EmTVclSZoEA0',
             'type' => 'non-kompetisi',
-            'poster1' => '/images/Poster.jpg',
-            'poster2' => '/images/Poster.jpg',
-            'poster3' => '/images/Poster.jpg',
+            'poster1' => '/images/non-kompetisi/Poster-Renjana.jpg',
+            'poster2' => '/images/non-kompetisi/Poster-HaloPulang.jpg',
+            'poster3' => '/images/non-kompetisi/Poster-IsSmile.jpg',
         ]);
 
         Program::create([
@@ -73,9 +73,9 @@ class ProgramSeeder extends Seeder
             <br>5. Manrabukka (Sutradara : Syafrida Yusuf Amin)',
             'link' => 'https://www.loket.com/event/3rd-ciputra-film-festival-2024-i4g7?fbclid=PAZXh0bgNhZW0CMTEAAaYIZWJnr1PfX9uaYXFiK_jVGhqhdTguBU9jzrG4-Q177bGA-esbzl_0eow_aem_AeHR1zhUjbR-HnRdZThopxkNyJjCFiTPh2N-s-A1x7-eLsTqdZrsP8z1MNCB-R59e75i2_avgR65EmTVclSZoEA0',
             'type' => 'non-kompetisi',
-            'poster1' => '/images/Poster-2.jpg',
-            'poster2' => '/images/Poster-2.jpg',
-            'poster3' => '/images/Poster-2.jpg',
+            'poster1' => '/images/non-kompetisi/Poster-MSH.jpg',
+            'poster2' => '/images/non-kompetisi/Poster-ItuBukanDia.jpg',
+            'poster3' => '/images/non-kompetisi/Poster-KLESHA.jpg',
         ]);
 
         Program::create([
