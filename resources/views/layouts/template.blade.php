@@ -15,12 +15,54 @@
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <style>
+        @font-face {
+            font-family: 'Royal';
+            src: url('/fonts/Royal_Loudes.otf') format('opentype');
+        }
+
+        @font-face {
+            font-family: 'Brakle';
+            src: url('/fonts/Brakle_Regular.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'BrakleB';
+            src: url('/fonts/Brakle_Bold.ttf') format('truetype');
+        }
+
+        #map { 
+            height: 300px; 
+            width: 100%; 
+            border-radius: 25px
+        }
+
+        #map2 { 
+            height: 300px; 
+            width: 100%; 
+            border-radius: 25px
+        }
+
+        .body-text-bold{
+            font-family: 'BrakleB', sans-serif;
+        }
+
+        .body-text{
+            font-family: 'Brakle', sans-serif;
+        }
+
+        .headline{
+            font-family: 'Royal', sans-serif;
+        }
+
         body{
             font-family: 'Be Vietnam Pro', sans-serif;
         }
@@ -32,8 +74,8 @@
         .justify{
             text-align: justify;
         }
-        .yellow{
-            background-color: #ffd400;
+        .white{
+            background-color: #dfe4ff;
         }
         .logo{
             height: 30px;
@@ -50,6 +92,16 @@
         .icon{
             max-width: 30px;
         }
+        .fs-min10{
+            height: 100px;
+            font-size: 100px;
+        }
+
+        .fs-min15{
+            height: 120px;
+            font-size: 120px;
+        }
+
         .fs-0{
             font-size: 50px;
         }
@@ -70,7 +122,7 @@
         .btn-custom:hover,
         .btn-custom:focus,
         .btn-custom:active{
-            background-color: #0887CD;
+            background-color: #e1ff4d;
             border-color: transparent;
         }
         .btn-blue{
@@ -83,27 +135,90 @@
             background-color: #0887CD;
             border-color: transparent;
         }
-        .btn-yellow{
-            background-color: #FFED00;
+        .btn-white{
+            background-color: #dfe4ff;
             border-color: transparent;
-            color: #0887CD;
+            color: #040e20;
         }
-        .btn-yellow:hover,
-        .btn-yellow:focus,
-        .btn-yellow:active{
-            background-color: #0887CD;
+        .btn-white:hover,
+        .btn-white:focus,
+        .btn-white:active{
+            background-color: #e1ff4d;
             border-color: transparent;
-            color: #FFED00;
+            color: #040e20;
         }
         .dropdown-custom{
-            background-color: #F5B416;
+            background-color: #e1ff4d;
             border-color: transparent;
         }
+
         .home-bg{
-            background: url('/images/Background-1.jpg');
+            background-color: #040e20;
+            height: 100%;
+            position: relative;
+            --bs-gutter-x: 0 !important;
+        }
+
+        
+
+        .bg-home-image{
+            position: absolute;
+            z-index: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 25%;
+        }
+
+        .bg-home-image2{
+            position: absolute;
+            z-index: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 25%;
+        }
+
+        .fest-director{
+            width: 400px;
+            height:200px;
+            background-color: #dfe4ff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .mr-5{
+            margin-right: 5%;
+        }
+
+        .mr-10{
+            margin-right: 10%;
+        }
+
+        .director-container{
+            display: flex;
+            align-items:flex-end;
+            justify-content: center;
+
+        }
+
+        .container{
+            position: relative;
+            z-index: 1;
+        }
+
+        .repeating-bg{
+            background: url('/images/[BACKGROUND].jpg');
             background-size: cover;
+            background-repeat: repeat-y;
+            position: absolute;
+            z-index: 0;
+            opacity: 25%;
+            width: 100vw;
             height: 100%;
         }
+
+
         .bg-2{
             background: url('/images/Background-2.jpg');
             background-size: cover;
@@ -148,6 +263,26 @@
             padding-left: 100px;
             padding-right: 100px;
         }
+
+        .date-container-p{
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .white-container{
+            width: fit-content;
+            padding-left: 2%;
+            padding-right: 2%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        .white-container p{
+            margin-bottom: 0;
+        }
+
         .padding-right{
             padding-right: 400px;
         }
@@ -196,15 +331,20 @@
         .player-2{
             aspect-ratio: 16/9;
         }
-        .form-select{
-            background-color: #0887CD;
+        .form-select-w{
+            background-color: #dfe4ff;
             border-color: transparent;
-            color: white;
+            color: #040e20;
+        }
+        .form-select-p{
+            background-color: #ae34e8;
+            border-color: transparent;
+            color: #040e20;
         }
         .form-select:hover,
         .form-select:focus,
         .form-select:active{
-            background-color: #F5B416;
+            background-color: #e1ff4d;
             border-color: transparent;
             color: #333
         }
@@ -222,7 +362,29 @@
             display: block;
         }
 
+        .text-white-custom{
+                color: #dfe4ff;
+        }
+
+        .text-black-custom{
+            color: #040e20;
+        }
+
+        .text-white-title{
+            color: #dfe4ff;
+
+        }
+
+
         @media (max-width:767px){
+            .bg-home-image{
+            position: absolute;
+            z-index: 0;
+            height: 100%;
+            width: auto;
+            opacity: 25%;
+        }
+
             table, tr, td{
                 background-color: transparent;
                 border: 2px solid #fff;
@@ -243,6 +405,15 @@
             .icon{
                 max-width: 30px;
             }
+
+            .fs-min10{
+                font-size: 50px;
+            }
+
+            .fs-min15{
+                font-size: 70px;
+            }
+
             .fs-0{
                 font-size: 40px;
             }
@@ -255,8 +426,8 @@
             .text-shadow{
                 text-shadow: 1px 1px 20px #777;
             }
+
             .home-bg{
-                background: url('/images/Background-1-Phone.jpg');
                 background-size: cover;
                 height: 100%;
             }
@@ -356,47 +527,48 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md position-fixed w-100 mt-4 px-2 px-md-3 yellow z-3">
+    <nav class="navbar navbar-expand-md position-fixed w-100 mt-4 px-2 px-md-3 white z-3">
         <div class="container-fluid">
                 <div class = "d-flex justify-content-start align-items-center">
                     <a class="navbar-brand mx-0 mx-md-2 px-0" href="#"> <img src="/images/LogoUC.png" class = "logo-1" alt = "Logo UC"> </a>
                     <a class="navbar-brand mx-0 mx-md-2 px-0" href="#"> <img src="/images/LogoFikomrade.png" class = "logo" alt = "Logo Fikomrade"> </a>
-                    <a class="navbar-brand mx-0 mx-md-2 px-0" href="#"> <img src="/images/LogoCFF.png" class = "logo" alt = "Logo CFF"> </a>
+                    <a class="navbar-brand mx-0 mx-md-2 px-0" href="#"> <img src="/images/[BLACK]FormalCFF.png" class = "logo" alt = "Logo CFF"> </a>
                 </div>
                     <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon ms-auto"></span>
                     </button>
             </div>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav d-flex justify-content-end ms-auto fw-bold grid gap-4 align-items-center">
+                <div class="navbar-nav d-flex justify-content-end ms-auto body-text grid gap-4 align-items-center">
                     <a class="nav-link text-black" aria-current="page" href="/"> HOME </a>
                     <div class="nav-link dropdown">
-                        <button class="btn btn-custom dropdown-toggle fw-bold rounded-0 text-black" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn btn-custom dropdown-toggle body-text rounded-0 text-black" data-bs-toggle="dropdown" aria-expanded="false">
                             UNSEEN
                         </button>
                         <ul class="dropdown-menu dropdown-custom rounded-0">
-                            <li><a class="dropdown-item fw-bold" href="/aboutus">ABOUT US</a></li>
-                            <li><a class="dropdown-item fw-bold" href="/catalog">CATALOG</a></li>
-                            <li><a class="dropdown-item fw-bold" href="/judges">JUDGES</a></li>
-                            <li><a class="dropdown-item fw-bold" href="/kurator">CURATOR</a></li>
-                            <li><a class="dropdown-item fw-bold" href="/archive">ARCHIVE</a></li>
+                            <li><a class="dropdown-item body-text" href="/aboutus">ABOUT US</a></li>
+                            <li><a class="dropdown-item body-text" href="/catalog">CATALOG</a></li>
+                            <li><a class="dropdown-item body-text" href="/judges">JUDGES</a></li>
+                            <li><a class="dropdown-item body-text" href="/kurator">CURATOR</a></li>
+                            <li><a class="dropdown-item body-text" href="/archive">ARCHIVE</a></li>
+                            <li><a class="dropdown-item body-text" href="/accessibility">ACCESSIBLITY</a></li>
                         </ul>
                     </div>
                     <a class="nav-link text-black" href="/ticketing"> TICKETING </a>
                     <div class="nav-link dropdown">
-                        <button class="btn btn-custom dropdown-toggle fw-bold rounded-0 text-black" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn btn-custom dropdown-toggle  rounded-0 text-black" data-bs-toggle="dropdown" aria-expanded="false">
                             PROGRAM
                         </button>
                         <ul class="dropdown-menu dropdown-custom rounded-0">
-                            <li><a class="dropdown-item fw-bold" href="/schedule"> SCHEDULE </a></li>
-                            <li><a class="dropdown-item fw-bold" href="/program/1"> ILLUSION OF DELUSION </a></li>
-                            <li><a class="dropdown-item fw-bold" href="/program/2"> VOICE OF THE VOICELESS </a></li>
-                            <li><a class="dropdown-item fw-bold" href="/program/3"> PERFECTLY IMPERFECT </a></li>
-                            <li><a class="dropdown-item fw-bold" href="/program/4"> SOS! SHOUT OUT SURABAYANS! </a></li>
+                            <li><a class="dropdown-item" href="/schedule"> SCHEDULE </a></li>
+                            <li><a class="dropdown-item" href="/program/1"> ILLUSION OF DELUSION </a></li>
+                            <li><a class="dropdown-item" href="/program/2"> VOICE OF THE VOICELESS </a></li>
+                            <li><a class="dropdown-item" href="/program/3"> PERFECTLY IMPERFECT </a></li>
+                            <li><a class="dropdown-item" href="/program/4"> SOS! SHOUT OUT SURABAYANS! </a></li>
                             
-                            <li><a class="dropdown-item fw-bold" href="/workshop"> WORKSHOP </a></li>
-                            <li><a class="dropdown-item fw-bold" href="/unseenSeries"> UNSEEN SERIES </a></li>
-                            <li><a class="dropdown-item fw-bold" href="/unseenFestival"> UNSEEN FESTIVAL </a></li>
+                            <li><a class="dropdown-item" href="/workshop"> WORKSHOP </a></li>
+                            <li><a class="dropdown-item" href="/unseenSeries"> UNSEEN SERIES </a></li>
+                            <li><a class="dropdown-item" href="/unseenFestival"> UNSEEN FESTIVAL </a></li>
                         </ul>
                     </div>
                     <a class="nav-link text-black" href="/presscenter"> PRESS CENTER </a>
@@ -409,10 +581,10 @@
         @yield('content')   
     </div>
     
-    <footer class = "position-absolute yellow padding-x py-5">
+    <footer class = "position-absolute body-text white padding-x py-5">
         <div class = "d-flex justify-content-between">
             <div class = "align-items-center align-middle">
-                <img src="/images/LogoCFF.png" class = "logo-footer" alt = "Logo CFF"> 
+                <img src="/images/[BLACK]FormalCFF.png" class = "logo-footer" alt = "Logo CFF"> 
                 <div class = "text-start my-2">
                     <img src="/images/IG.png" class = "icon d-inline" alt = "Icon Contact"> 
                     <p class = "fw-bold d-inline fs-8"> @CIPUTRAFILMFEST </p>
@@ -461,6 +633,46 @@
         },
         });
     </script> 
+
+
+        <script>
+            var map = L.map('map').setView([0, 0], 13);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(map);
+
+            var locations = [
+                { name: "Universitas Ciputra", lat: -7.28557, lng: 112.63160}  
+            ];
+
+            locations.forEach(function(location) {
+                L.marker([location.lat, location.lng]).addTo(map)
+            });
+
+            var bounds = locations.map(loc => [loc.lat, loc.lng]);
+            map.fitBounds(bounds);
+
+            
+
+
+            var map2 = L.map('map2').setView([0, 0], 13);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(map2);
+
+            var locations = [
+                { name: "Ciputra World", lat: -7.29241, lng: 112.72004}  
+            ];
+
+            locations.forEach(function(location) {
+                L.marker([location.lat, location.lng]).addTo(map2)
+            });
+
+            var bounds = locations.map(loc => [loc.lat, loc.lng]);
+            map2.fitBounds(bounds);
+        </script>
 
     <script>
         AOS.init();

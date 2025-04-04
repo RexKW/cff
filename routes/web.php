@@ -41,9 +41,16 @@ Route::get('/archive', function() {
     return view('unseen.archive');
 });
 
+Route::get('/accessibility', function(){
+    return view('unseen.accessibility');
+});
+
+
 Route::get('/ticketing', function(){
     return view('ticketing');
 });
+
+
 
 Route::post('/ticketingsearch', [ProgramController::class, 'search']);
 

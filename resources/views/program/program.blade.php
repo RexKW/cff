@@ -3,19 +3,22 @@
 @section('title', 'Programs')
 
 @section('content')
-    <div class = "row bg-6 padding text-white">
-        <div class = "col"> 
+    <div class = "row home-bg text-white">
+        {{-- <img src="/images/[BACKGROUND].jpg" class="bg-home-image" alt="" draggable="false">
+        <img src="/images/[BACKGROUND2].webp" class="bg-home-image" alt="" draggable="false"> --}}
+        <div class="repeating-bg"></div>
+        <div class = "col container padding"> 
             @foreach ($films as $film)
             <div class = "row"> 
                 <div class = "col-12 col-md-4">
                     <h1 class = "fw-bold fs-1 text-center text-md-start text-shadow" data-aos = "fade-up" data-aos-duration = "1500"> {{ strtoupper($film->judul) }}</h1>
                     <div class = "p-3" style = "background: rgba(250, 250, 250, 0.5)" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">
-                        <p class = "fw-bold fs-7 text-dark py-0 my-0"> SUTRADARA </p>
+                        <p class = "body-text-bold fs-7 text-dark py-0 my-0"> SUTRADARA </p>
                         <ul class = "py-0 my-0">
                             <li class = "fw-bold fs-7"> {{strtoupper($film->sutradara)}} </li>
                         </ul>
                         @if ($film->produser)
-                        <p class = "fw-bold fs-7 text-dark py-0 my-0"> PRODUSER </p>
+                        <p class = "body-text-bold  fs-7 text-dark py-0 my-0"> PRODUSER </p>
                         <ul class = "py-0 my-0">
                             <li class = "fw-bold fs-7"> {{strtoupper($film->produser)}} </li>
                         </ul>
