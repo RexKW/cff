@@ -591,7 +591,7 @@
                     <a class="nav-link text-black" aria-current="page" href="/"> HOME </a>
                     <div class="nav-link dropdown">
                         <button class="btn btn-custom dropdown-toggle body-text rounded-0 text-black" data-bs-toggle="dropdown" aria-expanded="false">
-                            UNSEEN
+                            Boundless
                         </button>
                         <ul class="dropdown-menu dropdown-custom rounded-0">
                             <li><a class="dropdown-item body-text" href="/aboutus">ABOUT US</a></li>
@@ -625,14 +625,11 @@
                             <li><a class="dropdown-item" href="/unseenFestival"> UNSEEN FESTIVAL </a></li> --}}
                             
                             <li><a class="dropdown-item" href=""> SCHEDULE </a></li>
-                            <li><a class="dropdown-item" href=""> ILLUSION OF DELUSION </a></li>
-                            <li><a class="dropdown-item" href=""> VOICE OF THE VOICELESS </a></li>
-                            <li><a class="dropdown-item" href=""> PERFECTLY IMPERFECT </a></li>
-                            <li><a class="dropdown-item" href=""> SOS! SHOUT OUT SURABAYANS! </a></li>
+                            <li><a class="dropdown-item" href=""> FILM LINEUP </a></li>
                             
                             <li><a class="dropdown-item" href=""> WORKSHOP </a></li>
-                            <li><a class="dropdown-item" href=""> UNSEEN SERIES </a></li>
-                            <li><a class="dropdown-item" href=""> UNSEEN FESTIVAL </a></li>
+                            <li><a class="dropdown-item" href=""> BOUNDLESS SERIES </a></li>
+
                         </ul>
                     </div>
                     {{-- <a class="nav-link text-black" href="/presscenter"> PRESS CENTER </a> --}}
