@@ -189,12 +189,6 @@
         }
 
         .fest-director{
-            width: 450px;
-            height:200px;
-            background-color: #dfe4ff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
 
         }
 
@@ -206,12 +200,6 @@
             margin-right: 10%;
         }
 
-        .director-container{
-            display: flex;
-            align-items:flex-end;
-            justify-content: center;
-
-        }
 
         .container{
             position: relative;
@@ -428,15 +416,12 @@
 
 
             .fest-director{
-                background-color: #dfe4ff;
+
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-bottom: 10%;
 
-            }
-
-            .director-container .fs-min10{
-                font-size: 35px
             }
 
             .director-container .fs-2{
@@ -610,20 +595,26 @@
                         </button>
                         <ul class="dropdown-menu dropdown-custom rounded-0">
                             <li><a class="dropdown-item body-text" href="/aboutus">ABOUT US</a></li>
-                            <li><a class="dropdown-item body-text" href="/catalog">CATALOG</a></li>
-                            <li><a class="dropdown-item body-text" href="/judges">JUDGES</a></li>
-                            <li><a class="dropdown-item body-text" href="/kurator">CURATOR</a></li>
-                            <li><a class="dropdown-item body-text" href="/archive">ARCHIVE</a></li>
-                            <li><a class="dropdown-item body-text" href="/accessibility">ACCESSIBLITY</a></li>
+                            {{-- <li><a class="dropdown-item body-text" href="/catalog">CATALOG</a></li> --}}
+                            <li><a class="dropdown-item body-text" href="">CATALOG</a></li>
+                            {{-- <li><a class="dropdown-item body-text" href="/judges">JUDGES</a></li> --}}
+                            <li><a class="dropdown-item body-text" href="">JUDGES</a></li>
+                            {{-- <li><a class="dropdown-item body-text" href="/kurator">CURATOR</a></li> --}}
+                            <li><a class="dropdown-item body-text" href="">CURATOR</a></li>
+                            {{-- <li><a class="dropdown-item body-text" href="/archive">ARCHIVE</a></li> --}}
+                            <li><a class="dropdown-item body-text" href="">ARCHIVE</a></li>
+                            {{-- <li><a class="dropdown-item body-text" href="/accessibility">ACCESSIBLITY</a></li> --}}
+                            <li><a class="dropdown-item body-text" href="">ACCESSIBLITY</a></li>
                         </ul>
                     </div>
-                    <a class="nav-link text-black" href="/ticketing"> TICKETING </a>
+                    {{-- <a class="nav-link text-black" href="/ticketing"> TICKETING </a> --}}
+                    <a class="nav-link text-black" href=""> TICKETING </a>
                     <div class="nav-link dropdown">
                         <button class="btn btn-custom dropdown-toggle  rounded-0 text-black" data-bs-toggle="dropdown" aria-expanded="false">
                             PROGRAM
                         </button>
                         <ul class="dropdown-menu dropdown-custom rounded-0">
-                            <li><a class="dropdown-item" href="/schedule"> SCHEDULE </a></li>
+                            {{-- <li><a class="dropdown-item" href="/schedule"> SCHEDULE </a></li>
                             <li><a class="dropdown-item" href="/program/1"> ILLUSION OF DELUSION </a></li>
                             <li><a class="dropdown-item" href="/program/2"> VOICE OF THE VOICELESS </a></li>
                             <li><a class="dropdown-item" href="/program/3"> PERFECTLY IMPERFECT </a></li>
@@ -631,10 +622,21 @@
                             
                             <li><a class="dropdown-item" href="/workshop"> WORKSHOP </a></li>
                             <li><a class="dropdown-item" href="/unseenSeries"> UNSEEN SERIES </a></li>
-                            <li><a class="dropdown-item" href="/unseenFestival"> UNSEEN FESTIVAL </a></li>
+                            <li><a class="dropdown-item" href="/unseenFestival"> UNSEEN FESTIVAL </a></li> --}}
+                            
+                            <li><a class="dropdown-item" href=""> SCHEDULE </a></li>
+                            <li><a class="dropdown-item" href=""> ILLUSION OF DELUSION </a></li>
+                            <li><a class="dropdown-item" href=""> VOICE OF THE VOICELESS </a></li>
+                            <li><a class="dropdown-item" href=""> PERFECTLY IMPERFECT </a></li>
+                            <li><a class="dropdown-item" href=""> SOS! SHOUT OUT SURABAYANS! </a></li>
+                            
+                            <li><a class="dropdown-item" href=""> WORKSHOP </a></li>
+                            <li><a class="dropdown-item" href=""> UNSEEN SERIES </a></li>
+                            <li><a class="dropdown-item" href=""> UNSEEN FESTIVAL </a></li>
                         </ul>
                     </div>
-                    <a class="nav-link text-black" href="/presscenter"> PRESS CENTER </a>
+                    {{-- <a class="nav-link text-black" href="/presscenter"> PRESS CENTER </a> --}}
+                    <a class="nav-link text-black" href=""> PRESS CENTER </a>
                 </div>
             </div>
         </div>

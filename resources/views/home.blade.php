@@ -40,7 +40,7 @@
         <div class = "padding-x container">
             <div class = "padding-right">
                 <img src = "/images/[WHITE]-BOUNDLESS.png" class = "text-image mt-4 mb-2" data-aos = "fade-up" data-aos-duration = "1500">
-                <p class = "text-white fs-7 text-shadow justify body-text" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                <p class = "text-white fs-7 text-shadow justify body-text" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250"> It means “not bound” by any restrictions. Creativity should not be limited, including the use of AI in movies. The world of cinema today has gone beyond the theory & means of production. Creativity and the messages that filmmakers want to convey have made the world of cinema limitless. The film production process can be done in out of the box ways, without being limited by equipment and technological sophistication. So, boundless was chosen as the theme so that filmmakers globally can transcend the boundaries in the film industry in terms of story, concept, and genre.</p>
                 <a class = "btn btn-white fs-2 fw-bold mt-2 mb-5 w-100" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "500"> BELI TIKET SEKARANG </a>
             </div>
         </div>
