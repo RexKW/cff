@@ -12,7 +12,7 @@
                 @csrf
                 <div class = "d-flex my-2 align-items-center align-middle">
                     <div class="form-group me-1" data-aos = "fade-up" data-aos-duration = "1500">
-                        <select class="form-select my-1 fw-bold rounded-0" name="type" required>
+                        <select class="form-select my-1 fw-bold body-text rounded-0" name="type" required>
                             <option value = "ALL"> ALL </option>
                             <option value = "workshop"> WORKSHOP </option>
                             <option value = "kompetisi"> KOMPETISI </option>
@@ -20,7 +20,7 @@
                         </select>
                     </div>
                     <div class="form-group ms-1" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">
-                        <select class="form-select my-1 fw-bold rounded-0" name="date" required>
+                        <select class="form-select my-1 fw-bold body-text rounded-0" name="date" required>
                             <option value = "ALL"> ALL </option>
                             <option value = "2024-05-28"> DAY 1 </option>
                             <option value = "2024-05-29"> DAY 2 </option>
@@ -52,17 +52,17 @@
                         </div>
                     </div>
                     <div class = "col-12 col-md-6">
-                        <h1 class = "fw-bold fs-1"> {{ $program->name }}</h1>
+                        <h1 class = "fw-bold headline fs-0"> {{ $program->name }}</h1>
     
                         @php
                         $date = $program->date;
                         $newDate = date("d/m/Y", strtotime($date));
                         @endphp
     
-                        <h3 class = "fw-semibold fs-4 fs-md-3"> {{ $newDate }} | {{ $program->location }}</h3>
+                        <h3 class = "fw-semibold body-text fs-7 fs-md-3"> {{ $newDate }} | {{ $program->location }}</h3>
     
-                        <p class = "fw-medium"> {!!$program->description!!} </p>
-                        <a href = "{{ $program->link }}" > <img src = "/images/BuyNow.jpg" class = "text-image-ticket"> </a>
+                        <p class = "fw-medium body-text"> {!!$program->description!!} </p>
+                        <a href = "{{ $program->link }}" class="justify-content-center w-100 body-text-bold fs-5 btn btn-white py-2 fw-bold"> BUY NOW </a>
                     </div>
                 </div>
                 @endforeach

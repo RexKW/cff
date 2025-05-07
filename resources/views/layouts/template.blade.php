@@ -92,6 +92,12 @@
         .icon{
             max-width: 30px;
         }
+
+        .fs-min5{
+            font-size: 80px;
+            height: 80px;
+        }
+
         .fs-min10{
             height: 100px;
             font-size: 100px;
@@ -154,7 +160,9 @@
 
         .home-bg{
             background-color: #040e20;
-            height: 100%;
+            max-width: 100vw;
+            width: 100%;
+            overflow: hidden;
             position: relative;
             --bs-gutter-x: 0 !important;
         }
@@ -165,20 +173,23 @@
             position: absolute;
             z-index: 0;
             height: 100%;
-            width: 100%;
+            width: auto;
             opacity: 25%;
+            object-position: center;
+
         }
 
         .bg-home-image2{
             position: absolute;
             z-index: 0;
             height: 100%;
-            width: 100%;
+            width: auto;
             opacity: 25%;
+            object-position: center;
         }
 
         .fest-director{
-            width: 400px;
+            width: 450px;
             height:200px;
             background-color: #dfe4ff;
             display: flex;
@@ -336,6 +347,22 @@
             border-color: transparent;
             color: #040e20;
         }
+
+        .form-select-r{
+            background-color: #9f2323;
+            border-color: transparent;
+            color: #dfe4ff;
+            padding: 2%;
+        }
+
+        .form-select-r:hover,
+        .form-select-r:focus,
+        .form-select-r:active{
+            background-color: #e1ff4d;
+            border-color: transparent;
+            color: #333
+        }
+
         .form-select-p{
             background-color: #ae34e8;
             border-color: transparent;
@@ -378,12 +405,44 @@
 
         @media (max-width:767px){
             .bg-home-image{
-            position: absolute;
-            z-index: 0;
-            height: 100%;
-            width: auto;
-            opacity: 25%;
-        }
+                position: absolute;
+                z-index: 0;
+                height: 100%;
+                width: auto;
+                opacity: 25%;
+                object-fit: cover;
+            object-position: center;
+
+            }
+
+            .bg-home-image2{
+                position: absolute;
+                z-index: 0;
+                height: 100%;
+                width: auto;
+                opacity: 25%;
+                object-fit: cover;
+            object-position: center;
+
+            }
+
+
+            .fest-director{
+                background-color: #dfe4ff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+
+            .director-container .fs-min10{
+                font-size: 35px
+            }
+
+            .director-container .fs-2{
+                font-size: 20px
+            }
+
 
             table, tr, td{
                 background-color: transparent;
@@ -406,12 +465,19 @@
                 max-width: 30px;
             }
 
+            .fs-min5{
+                font-size: 45px;
+                height: 45px;
+            }
+
             .fs-min10{
                 font-size: 50px;
+                height: 50px;
             }
 
             .fs-min15{
                 font-size: 70px;
+                height: 70px;
             }
 
             .fs-0{
@@ -427,10 +493,7 @@
                 text-shadow: 1px 1px 20px #777;
             }
 
-            .home-bg{
-                background-size: cover;
-                height: 100%;
-            }
+
             .bg-2{
                 background-size: cover;
                 background-repeat: repeat-y;
@@ -527,7 +590,7 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md position-fixed w-100 mt-4 px-2 px-md-3 white z-3">
+    <nav class="navbar navbar-expand-md position-fixed w-100 px-2 px-md-3 white z-3">
         <div class="container-fluid">
                 <div class = "d-flex justify-content-start align-items-center">
                     <a class="navbar-brand mx-0 mx-md-2 px-0" href="#"> <img src="/images/LogoUC.png" class = "logo-1" alt = "Logo UC"> </a>

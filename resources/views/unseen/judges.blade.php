@@ -7,7 +7,7 @@
         <img src="/images/[BACKGROUND].jpg" class="bg-home-image w-100 h-100" alt="" draggable="false">
         <img src="/images/[BACKGROUND2].webp" class="bg-home-image2" alt="" draggable="false">
         <div class = "col container padding">
-            <h1 class = "headline fs-min10 border-bottom border-2 py-2 py-md-3 text-center text-md-start" data-aos = "fade-up" data-aos-duration = "1500"> JUrI fIKSI </h1>
+            <h1 class = "headline fs-min10 border-bottom border-2 py-10 text-center text-md-start" data-aos = "fade-up" data-aos-duration = "1500"> JUrI fIKSI </h1>
             <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-3 py-md-4">
                 <div class = "col-12 col-md-4" data-aos = "fade-up" data-aos-duration = "1500">
                     <img src = "/images/Judges 3.png" class = "w-100">
@@ -36,7 +36,7 @@
                     <br> Beliau juga menyutradarai beberapa serial untuk OTT Platforms, yaitu “Titisan” (2020), “Paradise Garden” (2021) di Screenplay Films, “Story of Dinda” (2021) di Visinema Pictures, “Kalian Pantas Mati” (2022) di Netflix, dan <i> web series </i> terbarunya “Ratu Adil” (2024) di Vidio. Tak hanya itu, karya filmnya yang berjudul “Qorin” (2022) dan “Susuk: Kutukan Kecantikan” (2023) juga berhasil tayang di bioskop nasional.</p>
                 </div>
             </div>
-            <h1 class = "fw-bold fs-0 border-bottom border-2 py-2 py-md-3 text-center text-md-start" data-aos = "fade-up" data-aos-duration = "1500"> JURI DOKUMENTER </h1>
+            <h1 class = "fw-bold headline fs-min10 py-10 border-bottom border-2  text-center text-md-start" data-aos = "fade-up" data-aos-duration = "1500"> JURI DOKUMENTER </h1>
             <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-3 py-md-4">
                 <div class = "col-12 col-md-8 order-md-1 order-2" data-aos = "fade-up" data-aos-duration = "1500">
                     <h1 class = "headline fs-min10 text-center text-md-start my-4"> Yosep Anggi Noen </h1>

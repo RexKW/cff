@@ -9,19 +9,19 @@
         <div class="padding container">
             <div class = "text-start">
                 <p style = "text-align: justify;" class = "fs-min10 text-white-custom px-2 headline" data-aos = "fade-up" data-aos-duration = "1500"> Visi</p>
-                <p style = "text-align: justify;" class = "fs-8 text-white-custom body-text px-2" data-aos = "fade-up" data-aos-duration = "1500"> Menciptakan festival bagi insan film Indonesia dan dunia, terutama kalangan pelajar dan mahasiswa yang berfokus pada nilai-nilai integritas, profesionalisme, dan entrepreneurship. </p>
+                <p style = "text-align: justify;" class = "fs-8 text-white-custom body-text px-2" data-aos = "fade-up" data-aos-duration = "1500"> Creating a festival for Indonesians and international filmmakers, especially students, that focuses on the values of integrity, professionalism, and entrepreneurship.</p>
             </div>
             <div class = "text-start">
                 <p style = "text-align: justify;" class = "fs-min10 text-white-custom px-2 headline" data-aos = "fade-up" data-aos-duration = "1500"> Misi</p>
-                <p style = "text-align: justify;" class = "fs-8 text-white-custom body-text px-2" data-aos = "fade-up" data-aos-duration = "1500"> 1. Menyelenggarakan festival film untuk pelajar dan mahasiswa yang dikelola secara profesional oleh civitas academica Universitas Ciputra Surabaya. <br>
-                    2. Mewujudkan apresiasi bagi insan film Indonesia dan dunia dengan menjunjung tinggi nilai-nilai integritas. <br>
-                    3. Memberikan wawasan entrepreneurship dan peluang kolaborasi entrepreneurial di bidang film. </p>
+                <p style = "text-align: justify;" class = "fs-8 text-white-custom body-text px-2" data-aos = "fade-up" data-aos-duration = "1500"> 1. Organizing film festivals for students and students who are professionally managed by the Ciputra University Surabaya academic community.  <br>
+                    2. Realizing the appreciation for Indonesians and world film people by upholding integrity values.  <br>
+                    3. Providing entrepreneurship insights and entrepreneurial collaboration opportunities in the field of film.  </p>
             </div>
             <div class = "text-start">
                 <p style = "text-align: justify;" class = "fs-min10 text-white-custom px-2 headline" data-aos = "fade-up" data-aos-duration = "1500"> Core Value</p>
-                <p style = "text-align: justify;" class = "fs-8 text-white-custom body-text px-2" data-aos = "fade-up" data-aos-duration = "1500"> 1. Pertama, <u>Optimal Screening Experience</u> yang disajikan oleh CFF dengan memberikan pengalaman menonton film yang optimal dalam bentuk program screening film di bioskop dengan standar internasional yang menjamin kualitas penayangan maupun kenyamanan audiens. <br>
-                2. <u>Intensive Learning</u> mengacu pada upaya CFF dalam menyajikan berbagai program yang menjadi ruang nyaman untuk belajar, berdiskusi, dan berkarya baik dengan sesama filmmaker ataupun praktisi, seperti pembelajaran dalam bentuk workshop yang melibatkan peserta untuk aktif dalam menerima materi dan mengimplementasikan keterampilan praktis dalam waktu tertentu yang sudah dirancang. <br>
-                3. <u>Enjoyable Vibes</u> akan diimplementasikan dalam membuat rangkaian acara yang memiliki atmosfer atau suasana yang dapat dinikmati dengan nyaman, menyenangkan, serta positif. </p>
+                <p style = "text-align: justify;" class = "fs-8 text-white-custom body-text px-2" data-aos = "fade-up" data-aos-duration = "1500"> 1. <u>Optimal Screening Experience</u> presented by CFF by providing an optimal film viewing experience in the form of film screening programs in cinemas with international standards that guarantee the quality of screening and audience comfort.  <br>
+                2. <u>Intensive Learning</u> refers to CFF's efforts in presenting various programs that become comfortable spaces for learning, discussing, and working with fellow filmmakers or practitioners, such as learning in the form of workshops that involve participants to actively receive material and implement practical skills within a certain time that has been designed.<br>
+                3. <u>Enjoyable Vibes</u> will be implemented in creating a series of events that have an atmosphere where it can be enjoyed comfortably, fun, and positively. </p>
             </div>
             <div class="director-container">
                 <div class = "text-start mr-10">

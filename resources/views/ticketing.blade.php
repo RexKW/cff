@@ -16,7 +16,7 @@
                     @csrf
                     <div class = "d-flex justify-content-center my-2">
                         <div class="form-group me-2">
-                            <select class="form-select-w my-1 fw-bold rounded-0" name="type" required>
+                            <select class="form-select my-2 py-2 fw-bold body-text rounded-0" name="type" required>
                                 <option value = "ALL"> ALL </option>
                                 <option value = "workshop"> WORKSHOP </option>
                                 <option value = "kompetisi"> KOMPETISI </option>
@@ -24,7 +24,7 @@
                             </select>
                         </div>
                         <div class="form-group ms-2">
-                            <select class="form-select-p my-1 fw-bold rounded-0" name="date" required>
+                            <select class="form-select-p my-2 py-2 fw-bold body-text rounded-0" name="date" required>
                                 <option value = "ALL"> ALL </option>
                                 <option value = "2024-05-28"> DAY 1 </option>
                                 <option value = "2024-05-29"> DAY 2 </option>
@@ -35,7 +35,7 @@
                             </select>
                         </div>
                     </div>
-                    <button type="submit" class="justify-content-center w-100 btn-white py-2 fw-bold"> SEARCH </button>
+                    <button type="submit" class="justify-content-center w-100 body-text btn btn-white py-2 fw-bold"> SEARCH </button>
                 </form>
             </div>
         </div>
