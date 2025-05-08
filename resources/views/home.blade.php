@@ -33,7 +33,7 @@
             </div>
             <div class="w-100 justify-content-center date-container-p my-3">
                 <div class="white white-container">
-                    <p class="body-text-bold text-black-custom fs-2">20 MARCH - 20 APRIL 2025</p>
+                    <p class="body-text-bold text-black-custom fs-2">27 MAY - 31 MAY 2025</p>
                 </div>
             </div>
         </div>

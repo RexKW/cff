@@ -591,7 +591,7 @@
                     <a class="nav-link text-black" aria-current="page" href="/"> HOME </a>
                     <div class="nav-link dropdown">
                         <button class="btn btn-custom dropdown-toggle body-text rounded-0 text-black" data-bs-toggle="dropdown" aria-expanded="false">
-                            Boundless
+                            BOUNDLESS
                         </button>
                         <ul class="dropdown-menu dropdown-custom rounded-0">
                             <li><a class="dropdown-item body-text" href="/aboutus">ABOUT US</a></li>
@@ -625,7 +625,7 @@
                             <li><a class="dropdown-item" href="/unseenFestival"> UNSEEN FESTIVAL </a></li> --}}
                             
                             <li><a class="dropdown-item" href=""> SCHEDULE </a></li>
-                            <li><a class="dropdown-item" href=""> FILM LINEUP </a></li>
+                            <li><a class="dropdown-item" href="/program/1"> FILM LINEUP </a></li>
                             
                             <li><a class="dropdown-item" href=""> WORKSHOP </a></li>
                             <li><a class="dropdown-item" href=""> BOUNDLESS SERIES </a></li>
