@@ -608,7 +608,7 @@
                         </ul>
                     </div>
                     {{-- <a class="nav-link text-black" href="/ticketing"> TICKETING </a> --}}
-                    <a class="nav-link text-black" href=""> TICKETING </a>
+                    <a class="nav-link text-black" href="/ticketing"> TICKETING </a>
                     <div class="nav-link dropdown">
                         <button class="btn btn-custom dropdown-toggle  rounded-0 text-black" data-bs-toggle="dropdown" aria-expanded="false">
                             PROGRAM
