@@ -598,9 +598,9 @@
                             {{-- <li><a class="dropdown-item body-text" href="/catalog">CATALOG</a></li> --}}
                             <li><a class="dropdown-item body-text" href="">CATALOG</a></li>
                             {{-- <li><a class="dropdown-item body-text" href="/judges">JUDGES</a></li> --}}
-                            <li><a class="dropdown-item body-text" href="">JUDGES</a></li>
+                            <li><a class="dropdown-item body-text" href="/judges">JUDGES</a></li>
                             {{-- <li><a class="dropdown-item body-text" href="/kurator">CURATOR</a></li> --}}
-                            <li><a class="dropdown-item body-text" href="">CURATOR</a></li>
+                            <li><a class="dropdown-item body-text" href="/kurator">CURATOR</a></li>
                             {{-- <li><a class="dropdown-item body-text" href="/archive">ARCHIVE</a></li> --}}
                             <li><a class="dropdown-item body-text" href="">ARCHIVE</a></li>
                             {{-- <li><a class="dropdown-item body-text" href="/accessibility">ACCESSIBLITY</a></li> --}}
@@ -608,7 +608,7 @@
                         </ul>
                     </div>
                     {{-- <a class="nav-link text-black" href="/ticketing"> TICKETING </a> --}}
-                    <a class="nav-link text-black" href=""> TICKETING </a>
+                    <a class="nav-link text-black" href="/ticketing"> TICKETING </a>
                     <div class="nav-link dropdown">
                         <button class="btn btn-custom dropdown-toggle  rounded-0 text-black" data-bs-toggle="dropdown" aria-expanded="false">
                             PROGRAM
