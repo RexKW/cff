@@ -4,8 +4,8 @@
 
 @section('content')
     <div class = "home-bg h-100"> 
-        <img src="/images/[BACKGROUND].jpg" class="bg-home-image" alt="" draggable="false">
-        <img src="/images/[BACKGROUND2].webp" class="bg-home-image" alt="" draggable="false">
+        <img src="/images/[BACKGROUND].jpg" class="bg-home-image  h-100 w-100" alt="" draggable="false">
+        <img src="/images/[BACKGROUND2].webp" class="bg-home-image  h-100 w-100" alt="" draggable="false">
         <img src="" alt="">
         <div class="container-fluid container padding-home justify-content-center text-center">
             <div class = "d-flex justify-content-center my-4" data-aos = "fade-up" data-aos-duration = "1500">
