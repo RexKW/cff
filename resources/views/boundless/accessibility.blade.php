@@ -14,13 +14,13 @@
                 <div class = "col-12 col-md-6" > 
                     <div id="map"></div>
                     <div class="my-3">
-                        <div class="d-flex">
+                        <div class="d-flex my-2 align-items-center">
                             <img src="/images/Mail.png" class = "icon d-inline" alt = "Icon Contact"> 
-                            <p class="body-text">Universitas Ciputra Surabaya</p>
+                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">Universitas Ciputra Surabaya</p>
                         </div>
-                        <div class="d-flex">
+                        <div class="d-flex my-2 align-items-center">
                             <img src="/images/Mail.png" class = "icon d-inline" alt = "Icon Contact"> 
-                            <p class="body-text">01 April 2025</p>
+                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">01 April 2025</p>
                         </div>
                     </div>
                     
@@ -28,13 +28,13 @@
                 <div class = "col-12 col-md-6"> 
                     <div id="map2"></div>
                     <div class="my-3">
-                        <div class="d-flex">
+                        <div class="d-flex my-2 align-items-center">
                             <img src="/images/Mail.png" class = "icon d-inline" alt = "Icon Contact"> 
-                            <p class="body-text">Ciputra World Surabaya</p>
+                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">Ciputra World Surabaya</p>
                         </div>
-                        <div class="d-flex">
+                        <div class="d-flex my-2 align-items-center">
                             <img src="/images/Mail.png" class = "icon d-inline" alt = "Icon Contact"> 
-                            <p class="body-text">01 April 2025</p>
+                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">01 April 2025</p>
                         </div>
                     </div>
                 </div>

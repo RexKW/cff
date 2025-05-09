@@ -3,10 +3,11 @@
 @section('title', 'Ticketing')
 
 @section('content')
-    <div class = "home-bg justify-content-center"> 
+    <div class = "home-bg h-100"> 
         <img src="/images/[BACKGROUND].jpg" class="bg-home-image" alt="" draggable="false">
         <img src="/images/[BACKGROUND2].webp" class="bg-home-image" alt="" draggable="false">
-        <div class="container padding-home">
+        <img src="" alt="">
+        <div class="container-fluid container padding-home justify-content-center text-center">
             <div class = "d-flex justify-content-center my-4" data-aos = "fade-up" data-aos-duration = "1500">
                 <img src = "/images/[WHITE]-BOUNDLESS.png" class = "w-50">
             </div>

@@ -125,6 +125,19 @@
             border-color: transparent;
             color: inherit;
         }
+
+        .program-btn{
+            text-decoration: none;
+        }
+
+        .program-btn:hover,
+        .program-btn:focus,
+        .program-btn:active{
+            background-color: #e1ff4d;
+            border-color: transparent;
+        }
+
+
         .btn-custom:hover,
         .btn-custom:focus,
         .btn-custom:active{
@@ -278,6 +291,14 @@
             align-items: flex-end;
         }
 
+        .white-container-stretch{
+            padding-left: 2%;
+            padding-right: 2%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
         .white-container p{
             margin-bottom: 0;
         }
@@ -375,6 +396,11 @@
         }
         .hide-on-mobile{
             display: block;
+        }
+
+        .p-not-margin{
+            margin-bottom: 0;
+            margin-top: 0;
         }
 
         .text-white-custom{
@@ -603,8 +629,7 @@
                             <li><a class="dropdown-item body-text" href="/kurator">CURATOR</a></li>
                             {{-- <li><a class="dropdown-item body-text" href="/archive">ARCHIVE</a></li> --}}
                             <li><a class="dropdown-item body-text" href="">ARCHIVE</a></li>
-                            {{-- <li><a class="dropdown-item body-text" href="/accessibility">ACCESSIBLITY</a></li> --}}
-                            <li><a class="dropdown-item body-text" href="">ACCESSIBLITY</a></li>
+                            <li><a class="dropdown-item body-text" href="/accessibility">ACCESSIBLITY</a></li>
                         </ul>
                     </div>
                     {{-- <a class="nav-link text-black" href="/ticketing"> TICKETING </a> --}}
