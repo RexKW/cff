@@ -22,27 +22,27 @@ Route::get('/', function () {
 });
 
 Route::get('/aboutus', function() {
-    return view('unseen.aboutus');
+    return view('boundless.aboutus');
 });
 
 Route::get('/catalog', function(){
-    return view('unseen.catalog');
+    return view('boundless.catalog');
 });
 
 Route::get('/judges', function() {
-    return view('unseen.judges');
+    return view('boundless.judges');
 });
 
 Route::get('/kurator', function() {
-    return view('unseen.kurator');
+    return view('boundless.kurator');
 });
 
 Route::get('/archive', function() {
-    return view('unseen.archive');
+    return view('boundless.archive');
 });
 
 Route::get('/accessibility', function(){
-    return view('unseen.accessibility');
+    return view('boundless.accessibility');
 });
 
 
@@ -53,6 +53,10 @@ Route::get('/ticketing', function(){
 
 
 Route::post('/ticketingsearch', [ProgramController::class, 'search']);
+
+Route::get('/program', function(){
+    return view('categories');
+});
 
 Route::get('/program/{kategori}', [FilmController::class, 'detail']);
 

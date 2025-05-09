@@ -625,7 +625,7 @@
                             <li><a class="dropdown-item" href="/unseenFestival"> UNSEEN FESTIVAL </a></li> --}}
                             
                             <li><a class="dropdown-item" href=""> SCHEDULE </a></li>
-                            <li><a class="dropdown-item" href="/program/1"> FILM LINEUP </a></li>
+                            <li><a class="dropdown-item" href="/program"> FILM LINEUP </a></li>
                             
                             <li><a class="dropdown-item" href=""> WORKSHOP </a></li>
                             <li><a class="dropdown-item" href=""> BOUNDLESS SERIES </a></li>
