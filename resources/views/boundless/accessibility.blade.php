@@ -8,7 +8,7 @@
         <img src="/images/[BACKGROUND2].webp" class="bg-home-image h-100 w-100" alt="" draggable="false">
         <div class = "container padding container-fluid col-12 col-md-8 order-2 order-md-1"> 
             <div class="white white-container">
-                <p class="body-text-bold text-black-custom fs-2">Lokasi Acara</p>
+                <p class="body-text-bold text-black-custom fs-2">Event Location</p>
             </div>
             <div class = "row d-flex justify-content-center my-3">
                 <div class = "col-12 col-md-6" > 
@@ -20,7 +20,7 @@
                         </div>
                         <div class="d-flex my-2 align-items-center">
                             <img src="/images/Mail.png" class = "icon d-inline" alt = "Icon Contact"> 
-                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">01 April 2025</p>
+                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">27 May 2025</p>
                         </div>
                     </div>
                     
@@ -34,7 +34,7 @@
                         </div>
                         <div class="d-flex my-2 align-items-center">
                             <img src="/images/Mail.png" class = "icon d-inline" alt = "Icon Contact"> 
-                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">01 April 2025</p>
+                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">27 May 2025</p>
                         </div>
                     </div>
                 </div>
