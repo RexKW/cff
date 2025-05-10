@@ -10,7 +10,7 @@
             <h1 class = "headline fs-min10 border-bottom border-2 py-10 text-center text-md-start" data-aos = "fade-up" data-aos-duration = "1500"> JUdGES fICTION </h1>
             <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-3 py-md-4">
                 <div class = "col-12 col-md-4" data-aos = "fade-up" data-aos-duration = "1500">
-                    <img src = "/images/Judges 1.png" class = "w-100">
+                    <img src = "/images/Judge1.png" class = "w-100">
                 </div>
                 <div class = "col-12 col-md-8" data-aos = "fade-up" data-aos-duration = "1500">
                     <h1 class = "headline fs-min10 text-center text-md-start my-4"> Ajish Dibyo </h1>
@@ -27,12 +27,12 @@
                         </p>
                 </div>
                 <div class = "col-12 col-md-4 order-md-2 order-1" data-aos = "fade-up" data-aos-duration = "1500">
-                    <img src = "/images/Judges 2.png" class = "w-100">
+                    <img src = "/images/Judge2.png" class = "w-100">
                 </div>
             </div>
             <div class = "row d-flex align-items-center align-middle py-3 py-md-4">
                 <div class = "col-12 col-md-4" data-aos = "fade-up" data-aos-duration = "1500">
-                    <img src = "/images/Judges 3.png" class = "w-100">
+                    <img src = "/images/Judge3.png" class = "w-100">
                 </div>
                 <div class = "col-12 col-md-8" data-aos = "fade-up" data-aos-duration = "1500">
                     <h1 class = "headline fs-min10 text-center text-md-start my-4"> Wahyu Agung Prasetyo </h1>
@@ -47,12 +47,12 @@
                     <p class = "fs-7 justify body-text"> Afrian Arisandy is an Indonesian actor and educator. He is known for his roles in films directed by Joko Anwar, such as Perempuan Tanah Jahanam and Siksa Kubur. In addition to his career in film, he works as an Islamic Religious Education teacher at a vocational school in Sidoarjo, East Java. </p>
                 </div>
                 <div class = "col-12 col-md-4 order-md-2 order-1" data-aos = "fade-up" data-aos-duration = "1500">
-                    <img src = "/images/Judges 4.png" class = "w-100">
+                    <img src = "/images/Judge4.png" class = "w-100">
                 </div>
             </div>
             <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-3 py-md-4">
                 <div class = "col-12 col-md-4" data-aos = "fade-up" data-aos-duration = "1500">
-                    <img src = "/images/Judges 5.png" class = "w-100">
+                    <img src = "/images/Judge5.png" class = "w-100">
                 </div>
                 <div class = "col-12 col-md-8" data-aos = "fade-up" data-aos-duration = "1500">
                     <h1 class = "headline fs-min10 text-center text-md-start my-4"> Cosmas Gatot Haryono </h1>
@@ -65,13 +65,13 @@
                     <p class = "fs-7 justify body-text"> Working as a creative advisor for technology, communication, and culture in several companies, governments, and politics. Designing creative strategies, communication, and storytelling ideas for digital and social media. Living in the busy city of Jakarta, Motulz is also a content writer who loves to share stories about art, culture, creativity, innovation, the future, and technology. Motulz has worked as a video director, designer, photographer, illustrator, comic artist, and social media strategist. Motulz loves everything related to creative, technology, art, and culture. Currently, Motulz is challenging himself to explore new technologies such as AI (artificial intelligence) to develop all his experiences and skills with this new media. </p>
                 </div>
                 <div class = "col-12 col-md-4 order-md-2 order-1" data-aos = "fade-up" data-aos-duration = "1500">
-                    <img src = "/images/Judges 6.png" class = "w-100">
+                    <img src = "/images/Judge6.png" class = "w-100">
                 </div>
             </div>
             <h1 class = "headline fs-min10 border-bottom border-2 py-10 text-center text-md-start" data-aos = "fade-up" data-aos-duration = "1500"> JUdGES Documentary </h1>
             <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-3 py-md-4">
                 <div class = "col-12 col-md-4" data-aos = "fade-up" data-aos-duration = "1500">
-                    <img src = "/images/Judges 7.png" class = "w-100">
+                    <img src = "/images/Judge7.png" class = "w-100">
                 </div>
                 <div class = "col-12 col-md-8" data-aos = "fade-up" data-aos-duration = "1500">
                     <h1 class = "headline fs-min5 text-center text-md-start my-4"> Bernard Realino Danu Kristianto </h1>
@@ -84,12 +84,12 @@
                     <p class = "fs-7 justify body-text" data-aos = "fade-up"> Winner Wijaya is an Indonesian filmmaker. She likes to make films since the fifth grade of elementary as they were taught by their school teacher. Every weekend, together with her friends, they made movies with a MiniDV camcorder. They tried fun new things, painted the house walls green for chroma keying, wore ghost masks, made weird stories, and so on. Their short documentary “Ojek Lusi” was nominated for Piala Citra and won the best short documentary award in Festival Film Dokumenter 2017. In 2020 they won Minikino Best Begadang Filmmaking Competition for their directed film “Hey Guys Balik Lagi Sama Gue, Tuhan!” and were nominated for best short fiction film at Festival Film Indonesia 2020. At the moment they are in the editing process for their first feature documentary </p>
                 </div>
                 <div class = "col-12 col-md-4 order-md-2 order-1" data-aos = "fade-up" data-aos-duration = "1500">
-                    <img src = "/images/Judges 8.png" class = "w-100">
+                    <img src = "/images/Judge8.png" class = "w-100">
                 </div>
             </div>
             <div class = "row d-flex align-items-center align-middle py-3 py-md-4">
                 <div class = "col-12 col-md-4" data-aos = "fade-up" data-aos-duration = "1500">
-                    <img src = "/images/Judges 9.png" class = "w-100">
+                    <img src = "/images/Judge9.png" class = "w-100">
                 </div>
                 <div class = "col-12 col-md-8" data-aos = "fade-up" data-aos-duration = "1500">
                     <h1 class = "headline fs-min10 text-center text-md-start my-4"> Yusron Fuadi </h1>

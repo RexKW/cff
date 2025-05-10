@@ -10,7 +10,7 @@
             <h1 class = "headline fs-min10 border-bottom border-2 py-10 text-center text-md-start" data-aos = "fade-up" data-aos-duration = "1500"> COMPETITION</h1>
             <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-4 ">
                 <div class = "col-12 col-md-4" data-aos = "fade-up" data-aos-duration = "1500">
-                    <img src = "/images/Kurator 1.png" class = "w-100">
+                    <img src = "/images/Curator1.png" class = "w-100">
                 </div>
                 <div class = "col-12 col-md-8" data-aos = "fade-up" data-aos-duration = "1500">
                     <h1 class = "headline fs-min5"> Rosihan Amril Farouq </h1>
@@ -23,13 +23,13 @@
                     <p class = "fs-7 body-text justify"> A director and screenwriter with a Master’s degree in Media and Communication. At the moment, He is also active as a lecturer and film teacher at several campuses in Surabaya. His films have been screened at domestic and international festivals, including JAFF Jogja-NETPAC, Singapore International Film Festival, SeaShorts Malaysia, and CinemAsia Netherlands. Apart from that, he was also the Director of FESTCIL – Film Festival in Surabaya. </p>
                 </div>
                 <div class = "col-12 col-md-4 order-md-2 order-1" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">
-                    <img src = "/images/Kurator 2.png" class = "w-100">
+                    <img src = "/images/Curator2.png" class = "w-100">
                 </div>
             </div>
             <h1 class = "headline fs-min10 border-bottom border-2 py-10 text-center text-md-start" data-aos = "fade-up" data-aos-duration = "1500">NON COMPETITION</h1>
             <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-4">
                 <div class = "col-12 col-md-4" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "500">
-                    <img src = "/images/Kurator 3.png" class = "w-100">
+                    <img src = "/images/Curator3.png" class = "w-100">
                 </div>
                 <div class = "col-12 col-md-8" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "500">
                     <h1 class = "headline fs-min5"> Bernard Realino Danu Kristianto  </h1>
@@ -45,12 +45,12 @@
                     </p>
                 </div>
                 <div class = "col-12 col-md-4 order-md-2 order-1" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">
-                    <img src = "/images/Kurator 4.png" class = "w-100">
+                    <img src = "/images/Curator4.png" class = "w-100">
                 </div>
             </div>
             <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-4">
                 <div class = "col-12 col-md-4" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "500">
-                    <img src = "/images/Kurator 5.png" class = "w-100">
+                    <img src = "/images/Curator5.png" class = "w-100">
                 </div>
                 <div class = "col-12 col-md-8" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "500">
                     <h1 class = "headline fs-min5"> Ignasius Liliek  </h1>
@@ -63,7 +63,7 @@
                     <p class = "fs-7 body-text justify">Louisa Christine Hartanto, S.I.Kom., M.Si., commonly known as Bu Louisa, is a lecturer in the Communication Studies program at Universitas Surabaya. She graduated from Universitas Katolik Widya Mandala with a degree in Communication Studies in 2015. During her time as a student there, she served as a teaching assistant and head laboratory assistant. In 2015, she continued her studies at Universitas Indonesia in the Communication program and graduated in 2017. Besides being a lecturer, Bu Louisa is the head of the Laboratory of Communication and Media Convergence at the Communication Studies program, Universitas Ciputra. She has also been entrusted as a curator for the 3rd Ciputra Film Festival “Unseen” and this year serves again on the Executive Board for the 4th Ciputra Film Festival </p>
                 </div>
                 <div class = "col-12 col-md-4 order-md-2 order-1" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">
-                    <img src = "/images/Kurator 6.png" class = "w-100">
+                    <img src = "/images/Curator6.png" class = "w-100">
                 </div>
             </div>
         </div>
