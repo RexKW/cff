@@ -369,7 +369,7 @@
                     <div class="row" data-aos="fade-up" data-aos-duration="1500">
                         <div class="col-12 col-md-7">
                             <iframe class="player-2 w-100"
-                                src="https://youtu.be/HDiADbPq4EA?si=XZoAWu2d9fkIb077"
+                                src="https://www.youtube.com/embed/HDiADbPq4EA"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
