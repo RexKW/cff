@@ -17,10 +17,10 @@
                         <ul class = "py-0 my-0">
                             <li class = "fw-bold body-text text-dark fs-7"> {{strtoupper($film->sutradara)}} </li>
                         </ul>
-                        @if ($film->producer)
-                        <p class = "body-text-bold  fs-7 text-dark py-0 my-0"> PRODUCER </p>
+                        @if ($film->produser)
+                        <p class = "body-text-bold  fs-7 text-dark py-0 my-0"> PRODUSER </p>
                         <ul class = "py-0 my-0">
-                            <li class = "fw-bold body-text text-dark fs-7"> {{strtoupper($film->producer)}} </li>
+                            <li class = "fw-bold body-text text-dark fs-7"> {{strtoupper($film->produser)}} </li>
                         </ul>
                         @endif
                         @if ($film->penulis)
