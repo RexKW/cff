@@ -8,7 +8,7 @@
         <img src="/images/[BACKGROUND2].webp" class="bg-home-image2" alt="" draggable="false">
         <div class = "col container padding">
             <h1 class = "headline fs-min10 border-bottom border-2 py-10 text-center text-md-start" data-aos = "fade-up" data-aos-duration = "1500"> JUdGES fICTION </h1>
-            <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-3 py-md-4">
+            <div class = "row d-flex align-items-center align-middle  py-3 py-md-4">
                 <div class = "col-12 col-md-4" data-aos = "fade-up" data-aos-duration = "1500">
                     <img src = "/images/Judge1.png" class = "w-100">
                 </div>
@@ -17,7 +17,7 @@
                     <p class = "fs-7 justify body-text"> He has been learning about movies since college. He has been involved in organizing JAFF since the first event, in 2006. He is currently the executive director of JAFF & JAFF Market. Besides being active in organizing JAFF, he also produced several films as a producer. </p>
                 </div>
             </div>
-            <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-3 py-md-4">
+            <div class = "row d-flex align-items-center align-middle  py-3 py-md-4">
                 <div class = "col-12 col-md-8 order-md-1 order-2" data-aos = "fade-up" data-aos-duration = "1500">
                     <h1 class = "headline fs-min10 text-center text-md-start my-4"> Vanis </h1>
                     <p class = "fs-7 justify body-text" data-aos = "fade-up"> Vanis began her journey in Yogyakarta, Indonesia film scene in 2017, joining Ravacana Films as
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <h1 class = "fw-bold headline fs-min10 py-10 border-bottom border-2  text-center text-md-start" data-aos = "fade-up" data-aos-duration = "1500"> JUDGES HIGH SCHOOL COMPETITION </h1>
-            <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-3 py-md-4">
+            <div class = "row d-flex align-items-center align-middle  py-3 py-md-4">
                 <div class = "col-12 col-md-8 order-md-1 order-2" data-aos = "fade-up" data-aos-duration = "1500">
                     <h1 class = "headline fs-min10 text-center text-md-start my-4"> Afrian Arisandy </h1>
                     <p class = "fs-7 justify body-text"> Afrian Arisandy is an Indonesian actor and educator. He is known for his roles in films directed by Joko Anwar, such as Perempuan Tanah Jahanam and Siksa Kubur. In addition to his career in film, he works as an Islamic Religious Education teacher at a vocational school in Sidoarjo, East Java. </p>
@@ -50,7 +50,7 @@
                     <img src = "/images/Judge4.png" class = "w-100">
                 </div>
             </div>
-            <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-3 py-md-4">
+            <div class = "row d-flex align-items-center align-middle  py-3 py-md-4">
                 <div class = "col-12 col-md-4" data-aos = "fade-up" data-aos-duration = "1500">
                     <img src = "/images/Judge5.png" class = "w-100">
                 </div>
@@ -69,7 +69,7 @@
                 </div>
             </div>
             <h1 class = "headline fs-min10 border-bottom border-2 py-10 text-center text-md-start" data-aos = "fade-up" data-aos-duration = "1500"> JUdGES Documentary </h1>
-            <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-3 py-md-4">
+            <div class = "row d-flex align-items-center align-middle  py-3 py-md-4">
                 <div class = "col-12 col-md-4" data-aos = "fade-up" data-aos-duration = "1500">
                     <img src = "/images/Judge7.png" class = "w-100">
                 </div>
@@ -78,7 +78,7 @@
                     <p class = "fs-7 justify body-text"> Bernard Realino Danu Kristianto, S.I.Kom., M.I.Kom. who is familiarly called Mr. Danu is a lecturer in the Communication Science study program at Ciputra University Surabaya. After completing his undergraduate studies in the Communication Science study program, Mercu Buana University Jakarta, Mr. Danu continued his postgraduate studies in the Communication Science study program, Bunda Mulia University Jakarta. Mr. Danu has expertise in the fields of photography, music, videography, cinematography, film and also documentary. Currently, Mr. Danu is responsible for Student Affairs and Cooperation in the Communication Science Study Program at Ciputra University Surabaya. </p>
                 </div>
             </div>
-            <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-3 py-md-4">
+            <div class = "row d-flex align-items-center align-middle  py-3 py-md-4">
                 <div class = "col-12 col-md-8 order-md-1 order-2" data-aos = "fade-up" data-aos-duration = "1500">
                     <h1 class = "headline fs-min10 text-center text-md-start my-4"> Winner Wijaya </h1>
                     <p class = "fs-7 justify body-text" data-aos = "fade-up"> Winner Wijaya is an Indonesian filmmaker. She likes to make films since the fifth grade of elementary as they were taught by their school teacher. Every weekend, together with her friends, they made movies with a MiniDV camcorder. They tried fun new things, painted the house walls green for chroma keying, wore ghost masks, made weird stories, and so on. Their short documentary “Ojek Lusi” was nominated for Piala Citra and won the best short documentary award in Festival Film Dokumenter 2017. In 2020 they won Minikino Best Begadang Filmmaking Competition for their directed film “Hey Guys Balik Lagi Sama Gue, Tuhan!” and were nominated for best short fiction film at Festival Film Indonesia 2020. At the moment they are in the editing process for their first feature documentary </p>
