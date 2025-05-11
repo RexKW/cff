@@ -13,9 +13,9 @@
                 <div class = "col-12 col-md-4">
                     <h1 class = "fw-bold headline fs-0 text-center text-md-start text-shadow" data-aos = "fade-up" data-aos-duration = "1500"> {{ strtoupper($film->judul) }}</h1>
                     <div class = "p-3" style = "background: rgba(250, 250, 250, 1)" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">
-                        <p class = "body-text-bold fs-7 text-dark py-0 my-0"> SUTRADARA </p>
+                        <p class = "body-text-bold fs-7 text-dark py-0 my-0"> DIRECTOR </p>
                         <ul class = "py-0 my-0">
-                            <li class = "fw-bold body-text text-dark fs-7"> {{strtoupper($film->sutradara)}} </li>
+                            <li class = "fw-bold body-text text-dark fs-7"> {{strtoupper($film->director)}} </li>
                         </ul>
                         @if ($film->produser)
                         <p class = "body-text-bold  fs-7 text-dark py-0 my-0"> PRODUSER </p>
