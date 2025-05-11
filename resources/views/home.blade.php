@@ -19,7 +19,7 @@
                     </div>
                     <div class="swiper-slide">
                     <iframe class = "player" 
-                    src="https://www.youtube.com/embed/QV_iPZ1pjQc?si=JnqV5yoG6yPtcy-M" 
+                    src="www.youtube.com/embed/HDiADbPq4EA" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
