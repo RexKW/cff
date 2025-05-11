@@ -8,7 +8,7 @@
         <img src="/images/[BACKGROUND2].webp" class="bg-home-image" alt="" draggable="false">
         <div class = "col padding">
             <h1 class = "headline fs-min10 border-bottom border-2 py-10 text-center text-md-start" data-aos = "fade-up" data-aos-duration = "1500"> COMPETITION</h1>
-            <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-4 ">
+            <div class = "row d-flex align-items-center align-middle py-4 ">
                 <div class = "col-12 col-md-4" data-aos = "fade-up" data-aos-duration = "1500">
                     <img src = "/images/Curator1.png" class = "w-100">
                 </div>
@@ -27,7 +27,7 @@
                 </div>
             </div>
             <h1 class = "headline fs-min10 border-bottom border-2 py-10 text-center text-md-start" data-aos = "fade-up" data-aos-duration = "1500">NON COMPETITION</h1>
-            <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-4">
+            <div class = "row d-flex align-items-center align-middle  py-4">
                 <div class = "col-12 col-md-4" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "500">
                     <img src = "/images/Curator3.png" class = "w-100">
                 </div>
@@ -36,7 +36,7 @@
                     <p class = "fs-7 body-text justify"> Bernard Realino Danu Kristianto, S.I.Kom., M.I.Kom. who is familiarly called Mr. Danu is a lecturer in the Communication Science study program at Ciputra University Surabaya. After completing his undergraduate studies in the Communication Science study program, Mercu Buana University Jakarta, Mr. Danu continued his postgraduate studies in the Communication Science study program, Bunda Mulia University Jakarta. Mr. Danu has expertise in the fields of photography, music, videography, cinematography, film and also documentary. Currently, Mr. Danu is responsible for Student Affairs and Cooperation in the Communication Science Study Program at Ciputra University Surabaya. </p>
                 </div>
             </div>
-            <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-4">
+            <div class = "row d-flex align-items-center align-middle  py-4">
                 <div class = "col-12 col-md-8 order-md-1 order-2" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">
                     <h1 class = "headline fs-min10"> Imanuel Deny Krisna Aji  </h1>
                     <p class = "fs-7 body-text justify">Imanuel Deny Krisna Aji is a lecturer at the Faculty of Communication Science & Media Business (FIKOM) at Ciputra University Surabaya, specializing in Entrepreneurial Communication. He serves as a Competency Assessor at LSP-P1 Entrepreneurship Ciputra and is active as a radio announcer for UC Fikom Radio, as well as contributing to film script ideation. He has a keen academic interest in strategic communication and entrepreneurial communication. </p>
@@ -48,7 +48,7 @@
                     <img src = "/images/Curator4.png" class = "w-100">
                 </div>
             </div>
-            <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-4">
+            <div class = "row d-flex align-items-center align-middle  py-4">
                 <div class = "col-12 col-md-4" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "500">
                     <img src = "/images/Curator5.png" class = "w-100">
                 </div>
@@ -57,7 +57,7 @@
                     <p class = "fs-7 body-text justify"> Ignasius Liliek Senaharjanta completed his undergraduate education in Photography at the Faculty of Recorded Media Arts, Institut Seni Indonesia Yogyakarta, and earned a master's degree in Communication Science with a concentration in Media Studies at Universitas Pelita Harapan. He then continued his studies to obtain a Doctorate in Communication Science at Universitas Sahid. Before becoming a communication lecturer, Liliek worked as a photojournalist at the evening daily newspaper Suara Pembaruan and was active in writing film reviews on the lifestyle and entertainment pages of the newspaper. He is also active in professional organizations, including serving as a member of the External Relations Division of the Indonesian Photojournalists Association (PFI) </p>
                 </div>
             </div>
-            <div class = "row d-flex align-items-center align-middle border-bottom border-2 py-4">
+            <div class = "row d-flex align-items-center align-middle  py-4">
                 <div class = "col-12 col-md-8 order-md-1 order-2" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">
                     <h1 class = "headline fs-min10"> Louisa Christine Hartanto   </h1>
                     <p class = "fs-7 body-text justify">Louisa Christine Hartanto, S.I.Kom., M.Si., commonly known as Bu Louisa, is a lecturer in the Communication Studies program at Universitas Surabaya. She graduated from Universitas Katolik Widya Mandala with a degree in Communication Studies in 2015. During her time as a student there, she served as a teaching assistant and head laboratory assistant. In 2015, she continued her studies at Universitas Indonesia in the Communication program and graduated in 2017. Besides being a lecturer, Bu Louisa is the head of the Laboratory of Communication and Media Convergence at the Communication Studies program, Universitas Ciputra. She has also been entrusted as a curator for the 3rd Ciputra Film Festival “Unseen” and this year serves again on the Executive Board for the 4th Ciputra Film Festival </p>
