@@ -125,7 +125,7 @@
                         <div class="col-12 text-center">
                             <h1 class="headline fs-min10" data-aos="fade-up" data-aos-duration="1500"> INARA </h1>
                             <h3 class="fs-4 body-text my-0" data-aos="fade-up" data-aos-duration="1500"
-                                data-aos-delay="250"> May 29 - 3 June 2022</h3>
+                                data-aos-delay="250"> May 29 - 3 June 2023</h3>
                         </div>
                     </div>
 
@@ -369,7 +369,7 @@
                     <div class="row" data-aos="fade-up" data-aos-duration="1500">
                         <div class="col-12 col-md-7">
                             <iframe class="player-2 w-100"
-                                src="https://www.youtube.com/embed/QV_iPZ1pjQc?si=JnqV5yoG6yPtcy-M"
+                                src="https://youtu.be/HDiADbPq4EA?si=XZoAWu2d9fkIb077"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
