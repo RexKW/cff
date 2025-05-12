@@ -98,9 +98,19 @@
             height: 80px;
         }
 
+        .fs-min5B{
+            font-size: 80px;
+            height: 80px;
+        }
+
         .fs-min10{
             height: 100px;
             font-size: 100px;
+        }
+
+        .fs-min10B{
+                height: 100px;
+                font-size: 100px;
         }
 
         .fs-min15{
@@ -481,9 +491,19 @@
                 height: 45px;
             }
 
+            .fs-min5B{
+                font-size: 25px;
+                height: 25px;
+            }
+
             .fs-min10{
                 font-size: 50px;
                 height: 50px;
+            }
+
+            .fs-min10B{
+                font-size: 35px;
+                height:35px;
             }
 
             .fs-min15{

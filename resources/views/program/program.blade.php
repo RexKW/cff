@@ -13,30 +13,30 @@
                 <div class = "col-12 col-md-4">
                     <h1 class = "fw-bold headline fs-0 text-center text-md-start text-shadow" data-aos = "fade-up" data-aos-duration = "1500"> {{ strtoupper($film->judul) }}</h1>
                     <div class = "p-3" style = "background: rgba(250, 250, 250, 1)" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">
-                        <p class = "body-text-bold fs-7 text-dark py-0 my-0"> SUTRADARA </p>
+                        <p class = "body-text-bold fs-7 text-dark py-0 my-0"> DIRECTOR </p>
                         <ul class = "py-0 my-0">
                             <li class = "fw-bold body-text text-dark fs-7"> {{strtoupper($film->sutradara)}} </li>
                         </ul>
                         @if ($film->produser)
-                        <p class = "body-text-bold  fs-7 text-dark py-0 my-0"> PRODUSER </p>
+                        <p class = "body-text-bold  fs-7 text-dark py-0 my-0"> PRODUCER </p>
                         <ul class = "py-0 my-0">
                             <li class = "fw-bold body-text text-dark fs-7"> {{strtoupper($film->produser)}} </li>
                         </ul>
                         @endif
                         @if ($film->penulis)
-                        <p class = "fw-bold fs-7 body-text-bold text-dark py-0 my-0"> PENULIS </p>
+                        <p class = "fw-bold fs-7 body-text-bold text-dark py-0 my-0"> COUNTRY </p>
                         <ul class = "py-0 my-0">
                             <li class = "fw-bold body-text text-dark fs-7"> {{strtoupper($film->penulis)}} </li>
                         </ul>
                         @endif
                         @if ($film->rumah_produksi)
-                        <p class = "fw-bold fs-7 body-text-bold text-dark py-0 my-0"> RUMAH PRODUKSI </p>
+                        <p class = "fw-bold fs-7 body-text-bold text-dark py-0 my-0"> Production House </p>
                         <ul class = "py-0 my-0">
                             <li class = "fw-bold body-text text-dark fs-7"> {{strtoupper($film->rumah_produksi)}} </li>
                         </ul>
                         @endif
                         @if ($film->penghargaan)
-                            <p class = "fw-bold fs-7 body-text-bold text-dark text-dark py-0 my-0"> PENGHARGAAN </p>
+                            <p class = "fw-bold fs-7 body-text-bold text-dark text-dark py-0 my-0"> Award </p>
                             <ul class = "py-0 my-0">
                                 <li class = "fw-bold body-text text-dark fs-7"> {{strtoupper($film->penghargaan)}} </li>
                             </ul>
