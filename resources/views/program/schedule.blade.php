@@ -8,7 +8,7 @@
         <img src="/images/[BACKGROUND2].webp" class="bg-home-image" alt="" draggable="false">
         <div class="container padding">
             <div class = "d-flex justify-content-between align-items-center my-2">
-                <h1 class = "headline fs-min10 me-auto" data-aos = "fade-up" data-aos-duration = "1500"> JADWAL </h1>
+                <h1 class = "headline fs-min10 me-auto" data-aos = "fade-up" data-aos-duration = "1500"> Schedule </h1>
                 <div class="nav-link dropdown z-2" data-aos = "fade-up" data-aos-duration = "1500">
                     <button class="btn btn-white dropdown-toggle fw-bold rounded-0" data-bs-toggle="dropdown" aria-expanded="false">
                         CHOOSE DAY
