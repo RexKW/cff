@@ -182,6 +182,7 @@
             background-color: #040e20;
             max-width: 100vw;
             width: 100%;
+            min-height: 100vh;
             overflow: hidden;
             position: relative;
             --bs-gutter-x: 0 !important;
@@ -197,9 +198,9 @@
             left: 0;
             width: 100%;
             height: 100%;
-            opacity: 0.25;            /* use 0.0–1.0, not 25% */
-            object-position: center;  /* centers the image within the box */
-            object-fit: cover;        /* preserve aspect-ratio and cover the area */
+            opacity: 0.25;         
+            object-position: center;  
+            object-fit: cover; 
         }
 
         .fest-director{
@@ -654,8 +655,8 @@
                             <li><a class="dropdown-item" href="/schedule"> SCHEDULE </a></li>
                             <li><a class="dropdown-item" href="/program"> FILM LINEUP </a></li>
                             
-                            <li><a class="dropdown-item" href=""> WORKSHOP </a></li>
-                            <li><a class="dropdown-item" href=""> BOUNDLESS SERIES </a></li>
+                            <li><a class="dropdown-item" href="/workshop"> WORKSHOP </a></li>
+                            <li><a class="dropdown-item" href="/boundlessSeries"> BOUNDLESS SERIES </a></li>
 
                         </ul>
                     </div>
