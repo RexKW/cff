@@ -72,6 +72,10 @@ Route::get('/unseenSeries', function(){
     return view('program.unseenseries');
 });
 
+Route::get('/boundlessSeries', function(){
+    return view('program.boundlessseries');
+});
+
 Route::get('/unseenFestival', function(){
     return view('program.unseenfestival');
 });

@@ -655,8 +655,8 @@
                             <li><a class="dropdown-item" href="/schedule"> SCHEDULE </a></li>
                             <li><a class="dropdown-item" href="/program"> FILM LINEUP </a></li>
                             
-                            <li><a class="dropdown-item" href=""> WORKSHOP </a></li>
-                            <li><a class="dropdown-item" href=""> BOUNDLESS SERIES </a></li>
+                            <li><a class="dropdown-item" href="/workshop"> WORKSHOP </a></li>
+                            <li><a class="dropdown-item" href="/boundlessSeries"> BOUNDLESS SERIES </a></li>
 
                         </ul>
                     </div>
