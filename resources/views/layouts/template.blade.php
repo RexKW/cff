@@ -188,7 +188,10 @@
             --bs-gutter-x: 0 !important;
         }
 
-        
+        .genre{
+            background-color: #6a4cfa;
+            padding: 2%;
+        }
 
         .bg-home-image,
         .bg-home-image2 {

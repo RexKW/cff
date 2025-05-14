@@ -13,10 +13,14 @@
                 <div class = "d-flex my-2 align-items-center align-middle">
                     <div class="form-group me-1" data-aos = "fade-up" data-aos-duration = "1500">
                         <select class="form-select my-1 fw-bold body-text rounded-0" name="type" required>
-                            <option value = "ALL"> ALL </option>
-                            <option value = "workshop"> WORKSHOP </option>
-                            <option value = "kompetisi"> KOMPETISI </option>
-                            <option value = "non-kompetisi"> NON-KOMPETISI </option>
+                                <option value = "ALL"> ALL </option>
+                                <option value = "chosen"> The Chosen Screen </option>
+                                <option value = "fear"> Unchained Fear Screen </option>
+                                <option value = "voices"> Infinite Voices Screen </option>
+                                <option value = "reflections"> Limitless Reflections Screen </option>
+                                <option value = "pulse"> Endless Pulse Screen </option>
+                                <option value = "minds"> Unlocked Minds Screen </option>
+                                <option value = "session"> Expert Session </option>
                         </select>
                     </div>
                     <div class="form-group ms-1" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">
@@ -47,11 +51,12 @@
                                 <img src = "{{ $program->poster2 }}" class = "w-100">
                             </div>
                             <div class = "col-0 col-md-4 px-1 hide-on-mobile">
-                                <img src = "{{ $program->poster3 }}" class = "w-100">
+                                <img src = "{{ $program->poster3 }}" class = "w-100" style="max-height: ">
                             </div>
                         </div>
                     </div>
                     <div class = "col-12 col-md-6">
+                        <p class = "fw-medium body-text genre"> {{ $program->description }} </p>
                         <h1 class = "fw-bold headline fs-0"> {{ $program->name }}</h1>
     
                         @php
@@ -61,7 +66,7 @@
     
                         <h3 class = "fw-semibold body-text fs-7 fs-md-3"> {{ $newDate }} | {{ $program->location }}</h3>
     
-                        <p class = "fw-medium body-text"> {!!$program->description!!} </p>
+                        
                         <a href = "{{ $program->link }}" class="justify-content-center w-100 body-text-bold fs-5 btn btn-white py-2 fw-bold"> BUY NOW </a>
                     </div>
                 </div>
