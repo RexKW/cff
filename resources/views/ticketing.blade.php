@@ -19,9 +19,13 @@
                         <div class="form-group me-2">
                             <select class="form-select my-2 py-2 fw-bold body-text rounded-0" name="type" required>
                                 <option value = "ALL"> ALL </option>
-                                <option value = "workshop"> WORKSHOP </option>
-                                <option value = "kompetisi"> KOMPETISI </option>
-                                <option value = "non-kompetisi"> NON-KOMPETISI </option>
+                                <option value = "workshop"> The Chosen Screen </option>
+                                <option value = "kompetisi"> Unchained Fear Screen </option>
+                                <option value = "non-kompetisi"> Infinite Voices Screen </option>
+                                <option value = "non-kompetisi"> Limitless Reflections Screen </option>
+                                <option value = "non-kompetisi"> Endless Pulse Screen </option>
+                                <option value = "non-kompetisi"> Unlocked Minds Screen </option>
+                                <option value = "non-kompetisi"> Expert Session </option>
                             </select>
                         </div>
                         <div class="form-group ms-2">
