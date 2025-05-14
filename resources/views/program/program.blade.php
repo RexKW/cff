@@ -4,8 +4,34 @@
 
 @section('content')
     <div class = "row home-bg text-white">
-        <img src="/images/[BACKGROUND].jpg" class="bg-home-image" alt="" draggable="false">
-        <img src="/images/[BACKGROUND2].webp" class="bg-home-image" alt="" draggable="false">
+<div
+    class="bg-home-image"
+    style="
+      background-image: url('/images/[BACKGROUND].jpg');
+      background-repeat: repeat-y;
+      background-position: center top;
+      background-size: auto;
+      opacity: 0.25;
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    "
+  ></div>
+
+  <!-- second tiled background -->
+  <div
+    class="bg-home-image"
+    style="
+      background-image: url('/images/[BACKGROUND2].webp');
+      background-repeat: repeat-y;
+      background-position: center top;
+      background-size: auto;
+      opacity: 0.25;
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    "
+  ></div>
 
         <div class = "col container padding"> 
             @foreach ($films as $film)

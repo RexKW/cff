@@ -58,7 +58,20 @@
                             </iframe>
                         </div>
                         <div class="col-12 col-md-5 px-4">
-                            <img src="/images/Background-1.jpg" class="w-100 px-2">
+                            <div class="swiper mySwiper align-items-center align-middle" data-aos = "fade-up" data-aos-duration = "1500">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src = "/images/archive/Arunika/Arunika1.webp" class = "w-100 px-2">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src = "/images/archive/Arunika/Arunika2.jpg" class = "w-100 px-2">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src = "/images/archive/Arunika/Arunika3.jpg" class = "w-100 px-2">
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                     <div class="row my-4 my-md-1" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="250">
@@ -183,7 +196,26 @@
                             </iframe>
                         </div>
                         <div class="col-12 col-md-5 px-4">
-                            <img src="/images/Background-1.jpg" class="w-100 px-2">
+                            <div class="swiper mySwiper align-items-center align-middle" data-aos = "fade-up" data-aos-duration = "1500">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src = "/images/archive/Inara/Inara2.webp" class = "w-100 px-2">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src = "/images/archive/Inara/Inara3.webp" class = "w-100 px-2">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src = "/images/archive/Inara/Inara4.webp" class = "w-100 px-2">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src = "/images/archive/Inara/Inara5.webp" class = "w-100 px-2">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src = "/images/archive/Inara/Inara6.webp" class = "w-100 px-2">
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                     <div class="row my-4 my-md-1" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="250">
@@ -376,7 +408,26 @@
                             </iframe>
                         </div>
                         <div class="col-12 col-md-5 px-4">
-                            <img src="/images/Background-1.jpg" class="w-100 px-2">
+                            <div class="swiper mySwiper align-items-center align-middle" data-aos = "fade-up" data-aos-duration = "1500">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src = "/images/archive/Unseen/Unseen1.jpg" class = "w-100 px-2">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src = "/images/archive/Unseen/Unseen2.webp" class = "w-100 px-2">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src = "/images/archive/Unseen/Unseen3.webp" class = "w-100 px-2">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src = "/images/archive/Unseen/Unseen4.webp" class = "w-100 px-2">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src = "/images/archive/Unseen/Unseen5.jpg" class = "w-100 px-2">
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                     <div class="row my-4 my-md-1" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="250">
