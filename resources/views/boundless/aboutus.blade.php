@@ -13,9 +13,9 @@
             </div>
             <div class = "text-start">
                 <p style = "text-align: justify;" class = "fs-min10 text-white-custom px-2 headline" data-aos = "fade-up" data-aos-duration = "1500"> mission</p>
-                <p style = "text-align: justify;" class = "fs-8 text-white-custom body-text px-2" data-aos = "fade-up" data-aos-duration = "1500"> 1. Organizing film festivals for students and students who are professionally managed by the Ciputra University Surabaya academic community.  <br>
-                    2. Realizing the appreciation for Indonesians and world film people by upholding integrity values.  <br>
-                    3. Providing entrepreneurship insights and entrepreneurial collaboration opportunities in the field of film.  </p>
+                <p style = "text-align: justify;" class = "fs-8 text-white-custom body-text px-2" data-aos = "fade-up" data-aos-duration = "1500"> 1.Organizing film festivals for students and students who are professionally managed by the Ciputra University Surabaya academic community.  <br>
+                    2.Realizing the appreciation for Indonesians and world film people by upholding integrity values.  <br>
+                    3.Providing entrepreneurship insights and entrepreneurial collaboration opportunities in the field of film.  </p>
             </div>
             <div class = "text-start">
                 <p style = "text-align: justify;" class = "fs-min10 text-white-custom px-2 headline" data-aos = "fade-up" data-aos-duration = "1500"> Core Value</p>
