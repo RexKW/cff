@@ -56,7 +56,11 @@
                         </div>
                     </div>
                     <div class = "col-12 col-md-6">
-                        <p class = "fw-medium body-text genre"> {{ $program->description }} </p>
+                        @if(!empty($program->description))
+                            <p class="fw-medium body-text genre">
+                                {{ $program->description }}
+                            </p>
+                        @endif
                         <h1 class = "fw-bold headline fs-0"> {{ $program->name }}</h1>
     
                         @php

@@ -189,8 +189,13 @@
         }
 
         .genre{
+            display: inline-block;  
             background-color: #6a4cfa;
             padding: 2%;
+        }
+
+        .genre:empty {
+            display: none;
         }
 
         .bg-home-image,
