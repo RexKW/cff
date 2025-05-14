@@ -95,26 +95,23 @@
 
         .fs-min5{
             font-size: 80px;
-            height: 80px;
+            height: 100%;
         }
 
         .fs-min5B{
             font-size: 80px;
-            height: 80px;
+  
         }
 
         .fs-min10{
-            height: 100px;
             font-size: 100px;
         }
 
         .fs-min10B{
-                height: 100px;
                 font-size: 100px;
         }
 
         .fs-min15{
-            height: 120px;
             font-size: 120px;
         }
 
@@ -192,23 +189,17 @@
 
         
 
-        .bg-home-image{
+        .bg-home-image,
+        .bg-home-image2 {
             position: absolute;
             z-index: 0;
+            top: 0;
+            left: 0;
+            width: 100%;
             height: 100%;
-            width: auto;
-            opacity: 25%;
-            object-position: center;
-
-        }
-
-        .bg-home-image2{
-            position: absolute;
-            z-index: 0;
-            height: 100%;
-            width: auto;
-            opacity: 25%;
-            object-position: center;
+            opacity: 0.25;            /* use 0.0–1.0, not 25% */
+            object-position: center;  /* centers the image within the box */
+            object-fit: cover;        /* preserve aspect-ratio and cover the area */
         }
 
         .fest-director{
@@ -488,27 +479,22 @@
 
             .fs-min5{
                 font-size: 45px;
-                height: 45px;
             }
 
             .fs-min5B{
                 font-size: 25px;
-                height: 25px;
             }
 
             .fs-min10{
                 font-size: 50px;
-                height: 50px;
             }
 
             .fs-min10B{
                 font-size: 35px;
-                height:35px;
             }
 
             .fs-min15{
                 font-size: 70px;
-                height: 70px;
             }
 
             .fs-0{
