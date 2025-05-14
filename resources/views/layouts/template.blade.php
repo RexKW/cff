@@ -189,23 +189,17 @@
 
         
 
-        .bg-home-image{
+        .bg-home-image,
+        .bg-home-image2 {
             position: absolute;
             z-index: 0;
+            top: 0;
+            left: 0;
+            width: 100%;
             height: 100%;
-            width: auto;
-            opacity: 25%;
-            object-position: center;
-
-        }
-
-        .bg-home-image2{
-            position: absolute;
-            z-index: 0;
-            height: 100%;
-            width: auto;
-            opacity: 25%;
-            object-position: center;
+            opacity: 0.25;            /* use 0.0–1.0, not 25% */
+            object-position: center;  /* centers the image within the box */
+            object-fit: cover;        /* preserve aspect-ratio and cover the area */
         }
 
         .fest-director{
