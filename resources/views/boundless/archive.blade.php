@@ -24,7 +24,7 @@
                             <li class="fs-7 body-text"> Andrea Hartansa </li>
                         </ul>
 
-                        <p class="body-text-bold fs-2  text-dark py-0 my-0"> Jury </p>
+                        <p class="body-text-bold fs-2  text-dark py-0 my-0"> Judges </p>
                         <ul class="py-0 my-0">
                             <li class="fs-7 body-text"> Igak Satriya </li>
                             <li class="fs-7 body-text"> Padri Nadeak </li>
