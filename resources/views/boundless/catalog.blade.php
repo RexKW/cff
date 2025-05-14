@@ -9,13 +9,13 @@
         <div class = "container padding container-fluid col-12 col-md-7 order-2 order-md-1"> 
             <div class = "row d-flex">
                 <div class = "justify-content-center"> 
-                    <h1 class = "fw-bold text-start fs-min15 headline " data-aos = "fade-up" data-aos-duration = "1500"> E-CATALOGUE </h1>
+                    <h1 class = "fw-bold text-start fs-min15 headline " data-aos = "fade-up" data-aos-duration = "1500"> E-CaTaLOGUE </h1>
                 </div>
 
             </div>
             <div class = "row d-flex justify-content-center">
                 <div class = "col-12 col-md-6" > 
-                    <a class="justify-content-center w-100 btn white py-2 my-2 fs-4 fw-bold body-text-bold" data-aos = "fade-up" data-aos-duration = "1500"> DOWNLOAD E-CATALOG </a>
+                    <a class="justify-content-center w-100 btn white py-2 my-2 fs-4 fw-bold body-text-bold" data-aos = "fade-up" data-aos-duration = "1500"> DOWNLOAD E-CATALOGUE </a>
                 </div>
                 <div class = "col-0 col-md-6"> 
                 </div>
