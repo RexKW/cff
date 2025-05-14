@@ -24,7 +24,7 @@
                             <li class="fs-7 body-text"> Andrea Hartansa </li>
                         </ul>
 
-                        <p class="body-text-bold fs-2  text-dark py-0 my-0"> Jury </p>
+                        <p class="body-text-bold fs-2  text-dark py-0 my-0"> JUDGES </p>
                         <ul class="py-0 my-0">
                             <li class="fs-7 body-text"> Igak Satriya </li>
                             <li class="fs-7 body-text"> Padri Nadeak </li>
@@ -139,7 +139,7 @@
                         <ul class="py-0 my-0">
                             <li class="fs-7 body-text"> Hadassah Elisa Karsten </li>
                         </ul>
-                        <p class="body-text-bold fs-2  text-dark py-0 my-0"> Jury </p>
+                        <p class="body-text-bold fs-2  text-dark py-0 my-0"> JUDGES </p>
                         <ul class="py-0 my-0">
                             <li class="fs-7 body-text"> Robby Ertanto </li>
                             <li class="fs-7 body-text"> Eka Wahyu Primadani </li>
@@ -330,7 +330,7 @@
                         <ul class="py-0 my-0">
                             <li class="fs-7 body-text"> Felicia Audrey Elvina</li>
                         </ul>
-                        <p class="body-text-bold fs-2  text-dark py-0 my-0"> Jury </p>
+                        <p class="body-text-bold fs-2  text-dark py-0 my-0"> JUDGES </p>
                         <ul class="py-0 my-0">
                             <li class="fs-7 body-text"> Ifa Isfansyah </li>
                             <li class="fs-7 body-text"> Aryudha Fasha </li>
