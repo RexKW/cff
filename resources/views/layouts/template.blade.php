@@ -665,7 +665,7 @@
                             <li><a class="dropdown-item" href="/unseenSeries"> UNSEEN SERIES </a></li>
                             <li><a class="dropdown-item" href="/unseenFestival"> UNSEEN FESTIVAL </a></li> --}}
                             
-                            <li><a class="dropdown-item" href=""> SCHEDULE </a></li>
+                            <li><a class="dropdown-item" href="/schedule"> SCHEDULE </a></li>
                             <li><a class="dropdown-item" href="/program"> FILM LINEUP </a></li>
                             
                             <li><a class="dropdown-item" href=""> WORKSHOP </a></li>
