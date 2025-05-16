@@ -28,7 +28,7 @@
                                 <option value = "session"> Expert Session </option>
                             </select>
                         </div>
-                        <div class="form-group ms-2">
+                        {{-- <div class="form-group ms-2">
                             <select class="form-select-p my-2 py-2 fw-bold body-text rounded-0" name="date" required>
                                 <option value = "ALL"> ALL </option>
                                 <option value = "2025-05-27"> DAY 1 </option>
@@ -37,7 +37,8 @@
                                 <option value = "2025-05-30"> DAY 4 </option>
                                 <option value = "2025-06-31"> DAY 5 </option>
                             </select>
-                        </div>
+                        </div> --}}
+                        <input type="hidden" name="date" value="ALL">
                     </div>
                     <button type="submit" class="justify-content-center w-100 body-text btn btn-white py-2 fw-bold"> SEARCH </button>
                 </form>

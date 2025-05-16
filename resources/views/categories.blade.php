@@ -36,7 +36,7 @@
             </div>
             <div class="row mx-4 ">
                 <a href="/program/16 "   data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "500" style="height:288px;" class="white program-btn white-container d-flex align-items-center my-3 p-4 col mx-2 body-text-bold text-black-custom fs-2">OPEN AIR CINEMA: <br/>Erratic Identity </a>
-                <a href="/program/17"    data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "500" style="height:288px;" class="white program-btn white-container-stretch d-flex align-items-center my-3 p-4 col mx-2 body-text-bold text-black-custom fs-2">Open Air Cinema: Boundless</a>
+                <a href="/program/17"    data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "500" style="height:288px;" class="white program-btn white-container-stretch d-flex align-items-center my-3 p-4 col mx-2 body-text-bold text-black-custom fs-2">Open Air Cinema: Boundless Bridges</a>
                  
             </div>
             

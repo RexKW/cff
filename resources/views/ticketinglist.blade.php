@@ -23,7 +23,7 @@
                                 <option value = "session"> Expert Session </option>
                         </select>
                     </div>
-                    <div class="form-group ms-1" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">
+                    {{-- <div class="form-group ms-1" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">
                         <select class="form-select my-1 fw-bold body-text rounded-0" name="date" required>
                             <option value = "ALL"> ALL </option>
                             <option value = "2025-05-27"> DAY 1 </option>
@@ -32,7 +32,8 @@
                             <option value = "2025-05-30"> DAY 4 </option>
                             <option value = "2025-06-31"> DAY 5 </option>
                         </select>
-                    </div>
+                    </div> --}}
+                    <input type="hidden" name="date" value="ALL">
                     <div class="ms-1">
                         <button type="submit" style="background-color: transparent; border-color: transparent" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "500"> <img src = "/images/SearchIcon.png" class = "icon"> </button>
                     </div>
