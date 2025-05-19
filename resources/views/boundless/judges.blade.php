@@ -10,7 +10,7 @@
             <h1 class = "headline fs-min10 border-bottom border-2 py-10 text-center text-md-start" data-aos = "fade-up" data-aos-duration = "1500"> JUdGES fICTION </h1>
             <div class = "row d-flex align-items-center align-middle  py-3 py-md-4">
                 <div class = "col-12 col-md-4" data-aos = "fade-up" data-aos-duration = "1500">
-                    <img src = "/images/Judge1.png" class = "w-100">
+                    <img src = "/images/ajish.png" class = "w-100">
                 </div>
                 <div class = "col-12 col-md-8" data-aos = "fade-up" data-aos-duration = "1500">
                     <h1 class = "headline fs-min10 text-center text-md-start my-4"> Ajish Dibyo </h1>
@@ -47,7 +47,7 @@
                     <p class = "fs-7 justify body-text"> Afrian Arisandy is an Indonesian actor and educator. He is known for his roles in films directed by Joko Anwar, such as Perempuan Tanah Jahanam and Siksa Kubur. In addition to his career in film, he works as an Islamic Religious Education teacher at a vocational school in Sidoarjo, East Java. </p>
                 </div>
                 <div class = "col-12 col-md-4 order-md-2 order-1" data-aos = "fade-up" data-aos-duration = "1500">
-                    <img src = "/images/Judge4.png" class = "w-100">
+                    <img src = "/images/afrian.png" class = "w-100">
                 </div>
             </div>
             <div class = "row d-flex align-items-center align-middle  py-3 py-md-4">
