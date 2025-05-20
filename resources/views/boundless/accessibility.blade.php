@@ -20,7 +20,7 @@
                         </div>
                         <div class="d-flex my-2 align-items-center">
                             <img src="/images/Mail.png" class = "icon d-inline" alt = "Icon Contact"> 
-                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">27 May 2025</p>
+                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">27, 29, 30 & 31 May 2025</p>
                         </div>
                     </div>
                     
@@ -34,7 +34,7 @@
                         </div>
                         <div class="d-flex my-2 align-items-center">
                             <img src="/images/Mail.png" class = "icon d-inline" alt = "Icon Contact"> 
-                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">27 May 2025</p>
+                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">28-30 May 2025</p>
                         </div>
                     </div>
                 </div>
