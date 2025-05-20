@@ -1,6 +1,6 @@
 @extends('layouts.template')
 
-@section('title', 'Catalog')
+@section('title', 'Catalogue')
 
 @section('content')
     <div class = "row home-bg text-white-custom">
