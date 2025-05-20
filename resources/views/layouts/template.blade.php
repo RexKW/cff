@@ -194,6 +194,10 @@
             padding: 2%;
         }
 
+        .press{
+            width:max-content;;
+        }
+
         .genre:empty {
             display: none;
         }
@@ -668,7 +672,7 @@
 
                         </ul>
                     </div>
-                    <a class="nav-link text-black" href="/presscenter"> PRESS CENTER </a>
+                    <a class="nav-link text-black press" href="/presscenter"> PRESS CENTER </a>
                 </div>
             </div>
         </div>
