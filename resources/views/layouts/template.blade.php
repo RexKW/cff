@@ -718,15 +718,15 @@
                     <p class = "fw-bold d-inline fs-8"> @CIPUTRAFILMFEST </p>
                 </div>
                 <div class = "text-start my-2">
-                    <img src="/images/Tiktok.png" class = "icon d-inline" alt = "Icon Contact"> 
+                    <img src="/images/tiktok.png" class = "icon d-inline" alt = "Icon Contact"> 
                     <p class = "fw-bold d-inline fs-8"> @CIPUTRAFILMFEST </p>
                 </div>
                 <div class = "text-start my-2">
-                    <img src="/images/Mail.png" class = "icon d-inline" alt = "Icon Contact"> 
+                    <img src="/images/mail.png" class = "icon d-inline" alt = "Icon Contact"> 
                     <p class = "fw-bold d-inline fs-8"> CFF@CIPUTRA.AC.ID </p>
                 </div>
                 <div class = "text-start my-2">
-                    <img src="/images/Whatsapp.png" class = "icon d-inline" alt = "Icon Contact"> 
+                    <img src="/images/whatsapp.png" class = "icon d-inline" alt = "Icon Contact"> 
                     <p class = "fw-bold d-inline fs-8"> +62 851-5065-1509 </p>
                 </div>
             </div>
