@@ -4,8 +4,8 @@
 
 @section('content')
     <div class = "row home-bg text-white">
-        <img src="/images/[BACKGROUND].jpg" class="bg-home-image" alt="" draggable="false">
-        <img src="/images/[BACKGROUND2].webp" class="bg-home-image" alt="" draggable="false">
+        <div class="bg-repeating"></div>
+        <div class="bg-repeating-2"></div>
         <div class="container padding">
             <form method="POST" action="/ticketingsearch" class = "justify-content-start">
                 @method('post')

@@ -4,8 +4,8 @@
 
 @section('content')
     <div class = "row home-bg h-100 text-white-custom align-items-center align-middle">
-        <img src="/images/[BACKGROUND].jpg" class="bg-home-image" alt="" draggable="false">
-        <img src="/images/[BACKGROUND2].webp" class="bg-home-image" alt="" draggable="false">
+        <div class="bg-repeating"></div>
+        <div class="bg-repeating-2"></div>
         <div class="container padding">
             <h1 class = "headline  fs-min10 text-shadow" data-aos = "fade-up" data-aos-duration = "1500"> PRESS RELEASES </h1>
         <form method="POST" action="/pressSearch" class = "w-75 justify-content-start border-bottom border-2 border-white" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">

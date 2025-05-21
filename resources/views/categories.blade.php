@@ -5,8 +5,8 @@
 @section('content')
     
     <div class = "home-bg h-100">
-        <img src="/images/[BACKGROUND].jpg" class="bg-home-image" alt="" draggable="false">
-        <img src="/images/[BACKGROUND2].webp" class="bg-home-image" alt="" draggable="false">
+        <div class="bg-repeating"></div>
+        <div class="bg-repeating-2"></div>
         <img src="" alt="">
         <div class = "container-fluid container padding-home justify-content-center gap-5 text-center">
             <div class="row mx-4 ">

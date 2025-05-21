@@ -133,6 +133,29 @@
             color: inherit;
         }
 
+        .bg-repeating{
+            position: absolute;
+            z-index: 0;
+            background-image: url('/images/[BACKGROUND]-1.jpg');
+            background-size: contain;
+            background-repeat: repeat;
+            opacity: 40%;
+            width: 100vw;
+            height: 100%;
+            
+        }
+
+        .bg-repeating-2{
+            position: absolute;
+            z-index: 0;
+            background-image: url('/images/Repeating-BG.png');
+            background-size: contain;
+            background-repeat: repeat;
+            opacity: 30%;
+            width: 100vw;
+            height: 100%;
+        }
+
         .program-btn{
             text-decoration: none;
         }

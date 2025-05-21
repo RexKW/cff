@@ -4,8 +4,8 @@
 
 @section('content')
     <div class="row home-bg text-white-custom">
-        <img src="/images/[BACKGROUND].jpg" class="bg-home-image h-100 w-100" alt="" draggable="false">
-        <img src="/images/[BACKGROUND2].webp" class="bg-home-image h-100 w-100" alt="" draggable="false">
+       <div class="bg-repeating"></div>
+        <div class="bg-repeating-2"></div>
         <div class="container padding container-fluid col-12">
             <div class="white white-container">
                 <p class="body-text-bold text-black-custom fs-2">Event Location</p>

@@ -4,8 +4,8 @@
 
 @section('content')
     <div class = "home-bg justify-content-center">
-        <img src="/images/[BACKGROUND].jpg" class="bg-home-image" alt="" draggable="false">
-        <img src="/images/[BACKGROUND2].webp" class="bg-home-image" alt="" draggable="false">
+        <div class="bg-repeating"></div>
+        <div class="bg-repeating-2"></div>
         <div class="padding container">
             <div class = "text-start">
                 <p style = "text-align: justify;" class = "fs-min10 text-white-custom px-2 headline" data-aos = "fade-up" data-aos-duration = "1500"> Vision</p>

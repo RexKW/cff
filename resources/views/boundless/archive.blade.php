@@ -4,8 +4,8 @@
 
 @section('content')
     <div class="row home-bg text-white">
-        <img src="/images/[BACKGROUND].jpg" class="bg-home-image w-100 h-100" alt="" draggable="false">
-        <img src="/images/[BACKGROUND2].webp" class="bg-home-image" alt="" draggable="false">
+        <div class="bg-repeating"></div>
+        <div class="bg-repeating-2"></div>
         <div class="container padding col container-fluid">
             <div class="row mb-5">
                 <div class="col-12 col-md-3">

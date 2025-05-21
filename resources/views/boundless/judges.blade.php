@@ -4,8 +4,8 @@
 
 @section('content')
     <div class = "row home-bg text-white-custom">
-        <img src="/images/[BACKGROUND].jpg" class="bg-home-image w-100 h-100" alt="" draggable="false">
-        <img src="/images/[BACKGROUND2].webp" class="bg-home-image2" alt="" draggable="false">
+        <div class="bg-repeating"></div>
+        <div class="bg-repeating-2"></div>
         <div class = "col container padding">
             <h1 class = "headline fs-min10 border-bottom border-2 py-10 text-center text-md-start" data-aos = "fade-up" data-aos-duration = "1500"> JUdGES fICTION </h1>
             <div class = "row d-flex align-items-center align-middle  py-3 py-md-4">
