@@ -14,14 +14,14 @@
                 <div class="col-12 col-md-6">
                     <div id="map"></div>
                     <div class="my-3">
-                        <div class="d-flex my-2 align-items-center">
-                            <img src="/images/Mail.png" class="icon d-inline" alt="Icon Contact">
-                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">
+                        <div class="d-flex my-2 gap-2  align-items-center">
+                            <img src="/images/Location.png" class="icon d-inline" alt="Icon Contact">
+                            <p class="body-text d-flex p-not-margin fs-5 align-items-center justify-content-center ">
                                 Universitas Ciputra Surabaya</p>
                         </div>
-                        <div class="d-flex my-2 align-items-center">
-                            <img src="/images/Mail.png" class="icon d-inline" alt="Icon Contact">
-                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">27, 29,
+                        <div class="d-flex my-2 gap-2 align-items-center">
+                            <img src="/images/Date.png" class="icon d-inline" alt="Icon Contact">
+                            <p class="body-text d-flex p-not-margin fs-5 align-items-center justify-content-center ">27, 29,
                                 30 & 31 May 2025</p>
                         </div>
                     </div>
@@ -30,14 +30,14 @@
                 <div class="col-12 col-md-6">
                     <div id="map2"></div>
                     <div class="my-3">
-                        <div class="d-flex my-2 align-items-center">
-                            <img src="/images/Mail.png" class="icon d-inline" alt="Icon Contact">
-                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">Ciputra
+                        <div class="d-flex my-2  gap-2 align-items-center">
+                            <img src="/images/Location.png" class="icon d-inline" alt="Icon Contact">
+                            <p class="body-text d-flex p-not-margin fs-5 align-items-center justify-content-center ">Ciputra
                                 World Surabaya</p>
                         </div>
-                        <div class="d-flex my-2 align-items-center">
-                            <img src="/images/Mail.png" class="icon d-inline" alt="Icon Contact">
-                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">28-30
+                        <div class="d-flex my-2  gap-2 align-items-center">
+                            <img src="/images/Date.png" class="icon d-inline" alt="Icon Contact">
+                            <p class="body-text d-flex p-not-margin fs-5 align-items-center justify-content-center ">28-30
                                 May 2025</p>
                         </div>
                     </div>

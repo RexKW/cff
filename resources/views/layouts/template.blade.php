@@ -714,7 +714,7 @@
             <div class = "align-items-center align-middle">
                 <img src="/images/[BLACK]FormalCFF.png" class = "logo-footer" alt = "Logo CFF"> 
                 <div class = "text-start my-2">
-                    <img src="/images/IG.png" class = "icon d-inline" alt = "Icon Contact"> 
+                    <img src="/images/Instagram.png" class = "icon d-inline" alt = "Icon Contact"> 
                     <p class = "fw-bold d-inline fs-8"> @CIPUTRAFILMFEST </p>
                 </div>
                 <div class = "text-start my-2">
