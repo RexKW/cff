@@ -3,42 +3,64 @@
 @section('title', 'Accessibility')
 
 @section('content')
-<div class = "row home-bg text-white-custom">
+    <div class="row home-bg text-white-custom">
         <img src="/images/[BACKGROUND].jpg" class="bg-home-image h-100 w-100" alt="" draggable="false">
         <img src="/images/[BACKGROUND2].webp" class="bg-home-image h-100 w-100" alt="" draggable="false">
-        <div class = "container padding container-fluid col-12 col-md-8 order-2 order-md-1"> 
+        <div class="container padding container-fluid col-12">
             <div class="white white-container">
                 <p class="body-text-bold text-black-custom fs-2">Event Location</p>
             </div>
-            <div class = "row d-flex justify-content-center my-3">
-                <div class = "col-12 col-md-6" > 
+            <div class="row d-flex justify-content-center my-3">
+                <div class="col-12 col-md-6">
                     <div id="map"></div>
                     <div class="my-3">
                         <div class="d-flex my-2 align-items-center">
-                            <img src="/images/Mail.png" class = "icon d-inline" alt = "Icon Contact"> 
-                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">Universitas Ciputra Surabaya</p>
+                            <img src="/images/Mail.png" class="icon d-inline" alt="Icon Contact">
+                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">
+                                Universitas Ciputra Surabaya</p>
                         </div>
                         <div class="d-flex my-2 align-items-center">
-                            <img src="/images/Mail.png" class = "icon d-inline" alt = "Icon Contact"> 
-                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">27, 29, 30 & 31 May 2025</p>
+                            <img src="/images/Mail.png" class="icon d-inline" alt="Icon Contact">
+                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">27, 29,
+                                30 & 31 May 2025</p>
                         </div>
                     </div>
-                    
+
                 </div>
-                <div class = "col-12 col-md-6"> 
+                <div class="col-12 col-md-6">
                     <div id="map2"></div>
                     <div class="my-3">
                         <div class="d-flex my-2 align-items-center">
-                            <img src="/images/Mail.png" class = "icon d-inline" alt = "Icon Contact"> 
-                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">Ciputra World Surabaya</p>
+                            <img src="/images/Mail.png" class="icon d-inline" alt="Icon Contact">
+                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">Ciputra
+                                World Surabaya</p>
                         </div>
                         <div class="d-flex my-2 align-items-center">
-                            <img src="/images/Mail.png" class = "icon d-inline" alt = "Icon Contact"> 
-                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">28-30 May 2025</p>
+                            <img src="/images/Mail.png" class="icon d-inline" alt="Icon Contact">
+                            <p class="body-text d-flex p-not-margin ml-5 align-items-center justify-content-center ">28-30
+                                May 2025</p>
                         </div>
                     </div>
                 </div>
+
+
+
             </div>
-           
-    </div>
+            <div class="white white-container mt-5">
+                <p class="body-text-bold text-black-custom fs-2">Hospitality Catalog</p>
+            </div>
+            <div class="d-flex col-12 justify-content-start ">
+                <img src="/Guidebooks/GUIDEBOOK HOSPITALITY (ENG).png" class="col-6 w-25 mt-5" alt="" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                <div class="row d-flex flex-column justify-content-center align-items-center gap-5 col-6 my-3">
+                    <a href="/Guidebooks/GUIDEBOOK HOSPITALITY (ENG).pdf"
+                        class="btn btn-white body-text-bold text-black-custom fs-2 fw-bold mt-3 col-6 "
+                        data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"> Download EN Version</a>
+                    <a href="/Guidebooks/GUIDEBOOK HOSPITALITY (IDN).pdf"
+                        class="btn btn-white body-text-bold text-black-custom fs-2 fw-bold mt-3 col-6"
+                        data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"> Download IDN Version</a>
+                </div>
+            </div>
+
+
+        </div>
 @endsection
