@@ -31,7 +31,7 @@
         </form>
         <div class = "col-12">
             @foreach ($presses as $press)
-            <div class = "row py-4 border-bottom border-2 border-white align-items-center align-middle" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "500"> 
+            <a href="{{ $press->link }}" class = "text-white news row py-4 border-bottom border-2 border-white align-items-center align-middle" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "500"> 
                 <div class = "col-12 col-md-3">
                     <img src = "{{ $press->image }}" class = "w-100">
                     @php
@@ -46,7 +46,7 @@
                     <p class = "fw-medium body-text" style = "text-align: justify;"> {{ $press->description }} </p>
                 </div>
                 
-            </div>
+            </a>
             @endforeach
         </div>
         </div>

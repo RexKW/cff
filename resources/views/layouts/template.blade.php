@@ -137,6 +137,10 @@
             text-decoration: none;
         }
 
+        .news{
+            text-decoration: none;
+        }
+
         .program-btn:hover,
         .program-btn:focus,
         .program-btn:active{

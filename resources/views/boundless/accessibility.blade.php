@@ -49,15 +49,15 @@
             <div class="white white-container mt-5">
                 <p class="body-text-bold text-black-custom fs-2">Hospitality Catalog</p>
             </div>
-            <div class="d-flex col-12 justify-content-start ">
-                <img src="/Guidebooks/GUIDEBOOK HOSPITALITY (ENG).png" class="col-6 w-25 mt-5" alt="" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
-                <div class="row d-flex flex-column justify-content-center align-items-center gap-5 col-6 my-3">
+            <div class="d-flex flex-column flex-md-row col-12 justify-content-start ">
+                <img src="/Guidebooks/GUIDEBOOK HOSPITALITY (ENG).png" class="col-md-4 col-12 w-md-25 mt-5" alt="" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                <div class="d-flex flex-column justify-content-center align-items-center col-12 col-md-6 my-3">
                     <a href="/Guidebooks/GUIDEBOOK HOSPITALITY (ENG).pdf"
-                        class="btn btn-white body-text-bold text-black-custom fs-2 fw-bold mt-3 col-6 "
-                        data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"> Download EN Version</a>
+                        class="btn btn-white body-text-bold text-black-custom fs-2 fw-bold mt-3 col-12 ml-0 col-md-6 "
+                        data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"> Download<br/>EN Version</a>
                     <a href="/Guidebooks/GUIDEBOOK HOSPITALITY (IDN).pdf"
-                        class="btn btn-white body-text-bold text-black-custom fs-2 fw-bold mt-3 col-6"
-                        data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"> Download IDN Version</a>
+                        class="btn btn-white body-text-bold text-black-custom fs-2 fw-bold mt-3 col-12 ml-0 col-md-6"
+                        data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"> Download<br/> IDN Version</a>
                 </div>
             </div>
 
