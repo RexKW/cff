@@ -80,7 +80,7 @@ Route::get('/unseenFestival', function(){
     return view('program.unseenfestival');
 });
 
-Route::get('/presscenter', [PressController::class, 'index'])->name('presscenter');
+Route::get('/news', [PressController::class, 'index'])->name('presscenter');
 
-Route::post('/pressSearch', [PressController::class, 'search']);
+Route::post('/newsSearch', [PressController::class, 'search']);
 

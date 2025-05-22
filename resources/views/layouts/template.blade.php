@@ -699,7 +699,7 @@
 
                         </ul>
                     </div>
-                    <a class="nav-link text-black press" href="/presscenter"> PRESS CENTER </a>
+                    <a class="nav-link text-black press" href="/news"> News </a>
                 </div>
             </div>
         </div>

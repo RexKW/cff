@@ -8,7 +8,7 @@
         <div class="bg-repeating-2"></div>
         <div class="container padding">
             <h1 class = "headline  fs-min10 text-shadow" data-aos = "fade-up" data-aos-duration = "1500"> PRESS RELEASES </h1>
-        <form method="POST" action="/pressSearch" class = "w-75 justify-content-start border-bottom border-2 border-white" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">
+        <form method="POST" action="/newsSearch" class = "w-75 justify-content-start border-bottom border-2 border-white" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "250">
             @method('post')
             @csrf
             <div class = "d-flex my-2 align-items-center">
