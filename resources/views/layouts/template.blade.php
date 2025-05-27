@@ -667,7 +667,7 @@
                         </button>
                         <ul class="dropdown-menu dropdown-custom rounded-0">
                             <li><a class="dropdown-item body-text" href="/aboutus">ABOUT US</a></li>
-                            <li><a class="dropdown-item body-text" href="/catalog">CATALOG</a></li>
+                            {{-- <li><a class="dropdown-item body-text" href="/catalog">CATALOG</a></li> --}}
                             <li><a class="dropdown-item body-text" href="/judges">JUDGES</a></li>
                             <li><a class="dropdown-item body-text" href="/kurator">CURATOR</a></li>
                             <li><a class="dropdown-item body-text" href="/archive">ARCHIVE</a></li>
