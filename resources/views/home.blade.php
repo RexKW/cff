@@ -36,13 +36,10 @@
                     <p class="body-text-bold text-black-custom fs-2" >27 MAY - 31 MAY 2025</p>
                 </div>
             </div>
-            <div class="d-flex justify-between flex-column flex-md-row gap-2 gap-md-5 padding-x">
-                <a href="/Guidebooks/GUIDEBOOK HOSPITALITY (ENG).pdf"
-                        class="btn btn-white body-text-bold text-black-custom fs-2 fw-bold mt-3 col-12 col-md-6 "
-                        data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"> Guidebook<br/>EN Version</a>
-                    <a href="/Guidebooks/GUIDEBOOK HOSPITALITY (IDN).pdf"
-                        class="btn btn-white body-text-bold text-black-custom fs-2 fw-bold mt-3 col-12 col-md-6"
-                        data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"> Guidebook<br/> IDN Version</a>
+            <div class="d-flex justify-content-center padding-x">
+                <a href="/Guidebooks/FESTIVAL GUIDEBOOK.pdf"
+                        class="btn btn-white body-text-bold text-black-custom fs-2 fw-bold mt-3 col-6"
+                        data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"> Festival<br/>Guidebook</a>
             </div>
         </div>
         <div class = "padding-x container">
