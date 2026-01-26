@@ -850,7 +850,7 @@
                 </div>
                 <div class="text-start my-2">
                     <img src="/images/whatsapp.png" class="icon d-inline" alt="Icon Contact">
-                    <p class="fw-bold d-inline fs-8"> +62 851-5065-1509 </p>
+                    <p class="fw-bold d-inline fs-8">+62 851-1163-2022</p>
                 </div>
                 <div class="align-items-center align-middle text-start mt-5">
                     <p class="fw-bold fs-5"> UNIVERSITAS CIPUTRA SURABAYA </p>
