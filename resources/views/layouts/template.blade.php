@@ -15,9 +15,6 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
@@ -764,21 +761,22 @@
 
 <body>
     <nav class="navbar navbar-expand-md position-fixed w-100 px-2 px-md-3 white z-3">
-        <div class="container-fluid">
-            <div class="d-flex justify-content-start align-items-center">
-                <a class="navbar-brand mx-0 mx-md-2 px-0" href="#"> <img src="/images/LogoUC.png" class="logo-1"
-                        alt="Logo UC"> </a>
-                <a class="navbar-brand mx-0 mx-md-2 px-0" href="#"> <img src="/images/LogoFikomrade.png" class="logo"
-                        alt="Logo Fikomrade"> </a>
-                <a class="navbar-brand mx-0 mx-md-2 px-0" href="#"> <img src="/images/[BLACK]FormalCFF.png" class="logo"
-                        alt="Logo CFF"> </a>
-            </div>
-            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon ms-auto"></span>
-            </button>
+    <div class="container-fluid">
+        <div class="d-flex justify-content-start align-items-center">
+            <a class="navbar-brand mx-0 mx-md-2 px-0" href="#"> <img src="/images/LogoUC.png" class="logo-1"
+                    alt="Logo UC"> </a>
+            <a class="navbar-brand mx-0 mx-md-2 px-0" href="#"> <img src="/images/LogoFikomrade.png" class="logo"
+                    alt="Logo Fikomrade"> </a>
+            <a class="navbar-brand mx-0 mx-md-2 px-0" href="#"> <img src="/images/[BLACK]FormalCFF.png" class="logo"
+                    alt="Logo CFF"> </a>
         </div>
+        
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon ms-auto"></span>
+        </button>
+        
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav d-flex justify-content-end ms-auto body-text grid gap-4 align-items-center">
                 <a class="nav-link text-black" aria-current="page" href="/"> HOME </a>
@@ -789,14 +787,12 @@
                     </button>
                     <ul class="dropdown-menu dropdown-custom rounded-0">
                         <li><a class="dropdown-item body-text" href="/aboutus">ABOUT US</a></li>
-                        {{-- <li><a class="dropdown-item body-text" href="/catalog">CATALOG</a></li> --}}
                         <li><a class="dropdown-item body-text" href="/judges">JUDGES</a></li>
                         <li><a class="dropdown-item body-text" href="/kurator">CURATOR</a></li>
                         <li><a class="dropdown-item body-text" href="/archive">ARCHIVE</a></li>
                         <li><a class="dropdown-item body-text" href="/accessibility">ACCESSIBLITY</a></li>
                     </ul>
                 </div>
-                {{-- <a class="nav-link text-black" href="/ticketing"> TICKETING </a> --}}
                 <a class="nav-link text-black" href="/ticketing"> TICKETING </a>
                 <div class="nav-link dropdown">
                     <button class="btn btn-custom dropdown-toggle  rounded-0 text-black" data-bs-toggle="dropdown"
@@ -804,29 +800,17 @@
                         PROGRAM
                     </button>
                     <ul class="dropdown-menu dropdown-custom rounded-0">
-                        {{-- <li><a class="dropdown-item" href="/schedule"> SCHEDULE </a></li>
-                        <li><a class="dropdown-item" href="/program/1"> ILLUSION OF DELUSION </a></li>
-                        <li><a class="dropdown-item" href="/program/2"> VOICE OF THE VOICELESS </a></li>
-                        <li><a class="dropdown-item" href="/program/3"> PERFECTLY IMPERFECT </a></li>
-                        <li><a class="dropdown-item" href="/program/4"> SOS! SHOUT OUT SURABAYANS! </a></li>
-
-                        <li><a class="dropdown-item" href="/workshop"> WORKSHOP </a></li>
-                        <li><a class="dropdown-item" href="/unseenSeries"> UNSEEN SERIES </a></li>
-                        <li><a class="dropdown-item" href="/unseenFestival"> UNSEEN FESTIVAL </a></li> --}}
-
                         <li><a class="dropdown-item" href="/schedule"> SCHEDULE </a></li>
                         <li><a class="dropdown-item" href="/program"> FILM LINEUP </a></li>
-
                         <li><a class="dropdown-item" href="/"> WORKSHOP </a></li>
                         <li><a class="dropdown-item" href="/boundlessSeries"> BOUNDLESS SERIES </a></li>
-
                     </ul>
                 </div>
                 <a class="nav-link text-black press" href="/news"> NEWS </a>
             </div>
         </div>
-        </div>
-    </nav>
+    </div>
+</nav>
 
     <div class="z-0">
         @yield('content')
